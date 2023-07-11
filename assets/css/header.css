@@ -27,6 +27,14 @@
   line-height: 160%;
   font-size: 16px;
 }
+.header-menu-btn .theme-btn span {
+  text-decoration: underline;
+}
+
+.header-menu-btn .theme-btn:hover {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
 /*============================================================================================
 	End Header Area
 ==============================================================================================*/
