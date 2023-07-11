@@ -26,11 +26,11 @@
 /* Selection CSS */
 ::-moz-selection {
   color: var(--white-color);
-  background: var(--primary-color);
+  background: var(--secondary-color);
 }
 ::selection {
   color: var(--white-color);
-  background: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 /* ScrollBar CSS */
@@ -716,6 +716,9 @@ p {
 .mg-top-40 {
   margin-top: 40px;
 }
+.mg-top-46 {
+  margin-top: 46px;
+}
 .mg-top-50 {
   margin-top: 50px;
 }
@@ -747,6 +750,12 @@ p {
   margin-bottom: 50px;
 }
 
+.background-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* Preloader CSS */
 
 /* Back To Top CSS */
@@ -759,7 +768,7 @@ p {
   cursor: pointer;
   display: block;
   border-radius: 50px;
-  box-shadow: inset 0 0 0 2px #ff49491c;
+  box-shadow: inset 0 0 0 2px #ffaf0133;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -779,7 +788,7 @@ p {
   text-align: center;
   line-height: 46px;
   font-size: 20px;
-  color: var(--accent-color);
+  color: var(--secondary-color);
   left: 0;
   top: 0;
   height: 46px;
@@ -794,7 +803,7 @@ p {
   fill: none;
 }
 .progress-wrap svg.progress-circle path {
-  stroke: var(--accent-color);
+  stroke: var(--secondary-color);
   stroke-width: 4;
   box-sizing: border-box;
   -webkit-transition: all 200ms linear;
@@ -811,6 +820,29 @@ p {
   }
 }
 /* End Back To Top CSS */
+
+/* Theme Button */
+.theme-btn {
+  display: inline-flex;
+  padding: 16px 24px;
+  background: var(--secondary-color);
+  color: var(--title-color);
+  border-radius: 8px;
+  margin-right: 26px;
+  line-height: 20px;
+  align-items: center;
+}
+.theme-btn:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+.theme-btn:last-child {
+  margin: 0;
+}
+.theme-btn i {
+  font-size: 24px;
+  margin-left: 4px;
+}
 
 /*============================================================================================
 	End Theme Reset

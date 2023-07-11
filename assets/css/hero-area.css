@@ -1,0 +1,82 @@
+/*============================================================================================
+	Hero Area
+==============================================================================================*/
+.section-bg-image {
+  height: 840px;
+  background: var(--primary-color);
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+/* Hero Banner One */
+.hero-area {
+  overflow: hidden;
+}
+.hero-content h1 {
+  text-align: center;
+  color: var(--white-color);
+  font-size: 80px;
+  letter-spacing: -2px;
+  line-height: normal;
+}
+.hero-video-image {
+  margin-top: 74px;
+  position: relative;
+}
+.hero-video-image::before {
+  position: absolute;
+  content: "";
+  width: 244px;
+  height: 200px;
+  background-image: url("../images/hero-banner/arrow-shape-1.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  right: -17%;
+  top: -32%;
+  z-index: 22;
+}
+.video-popup-img {
+  position: relative;
+}
+.video-popup-img::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 19px;
+  background: linear-gradient(358deg, #04091e 0%, rgba(4, 9, 30, 0) 100%);
+}
+.video-popup-img img {
+  width: 100%;
+  height: 585px;
+  border-radius: 19px;
+  object-fit: cover;
+}
+.video-popup-img i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 137px;
+  height: 137px;
+  line-height: 137px;
+  background: var(--secondary-color);
+  border-radius: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: var(--title-color);
+  transition: all 0.4s ease;
+}
+.video-popup-img i:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+/*============================================================================================
+	End Hero Area
+==============================================================================================*/

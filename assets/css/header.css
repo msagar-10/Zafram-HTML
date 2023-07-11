@@ -1,0 +1,32 @@
+/*============================================================================================
+	Header Area
+==============================================================================================*/
+.header-area {
+  padding: 20px 0px;
+  border-bottom: 1px solid #ffffff30;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo img {
+  width: 164px;
+  height: 44px;
+  object-fit: contain;
+}
+.header-menu-list li {
+  display: inline-block;
+  margin-right: 42px;
+}
+.header-menu-list li:last-child {
+  margin: 0;
+}
+.header-menu-list li a {
+  color: var(--white-color);
+  line-height: 160%;
+  font-size: 16px;
+}
+/*============================================================================================
+	End Header Area
+==============================================================================================*/
