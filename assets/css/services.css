@@ -1,0 +1,77 @@
+/*============================================================================================
+	Service Area
+==============================================================================================*/
+.service-area {
+  padding: 40px 0px 296px;
+  background: #fff5df;
+  position: relative;
+  z-index: 2;
+}
+.service-section-shape {
+  width: 100%;
+  height: 100%;
+}
+.service-section-shape .shape {
+  position: absolute;
+  z-index: -1;
+}
+.service-section-shape .shape-1 {
+  top: 7%;
+  left: 17%;
+}
+.service-section-shape .shape-2 {
+  right: 5%;
+  top: 10%;
+}
+.service-section-shape .shape-3 {
+  bottom: 22%;
+  right: 6%;
+}
+.service-card {
+  background: var(--white-color);
+  padding: 28px;
+  margin-top: 28px;
+  box-shadow: 0px 4px 57px 0px rgba(103, 120, 136, 0.14);
+  border-radius: 12px;
+}
+
+.service-card-icon img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+.service-card-content {
+  margin-top: 14px;
+}
+.service-card-title {
+  font-size: 24px;
+  margin-bottom: 14px;
+  line-height: 150%;
+}
+.service-card-text {
+  line-height: 160%;
+  margin: 0;
+  color: #4d5461;
+}
+.service-card-btn {
+  margin-top: 20px;
+}
+.service-card-btn a {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--primary-color) !important;
+  line-height: 152%;
+}
+.service-card-btn a:hover {
+  color: var(--secondary-color) !important;
+}
+.service-card-btn a i {
+  margin-left: 4px;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+/*============================================================================================
+	End Service Area
+==============================================================================================*/

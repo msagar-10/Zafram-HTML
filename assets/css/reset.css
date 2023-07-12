@@ -821,6 +821,26 @@ p {
 }
 /* End Back To Top CSS */
 
+/* Section Head */
+.section-head {
+  margin-bottom: 32px;
+}
+.section-head-sm-title {
+  color: var(--primary-color);
+  font-size: 22px;
+  line-height: 120%;
+  margin-bottom: 26px;
+  display: inline-block;
+}
+.section-head-title {
+  font-size: 42px;
+  line-height: 60px;
+  margin: 0;
+}
+.section-bottom-btn {
+  text-align: center;
+  margin-top: 50px;
+}
 /* Theme Button */
 .theme-btn {
   display: inline-flex;
