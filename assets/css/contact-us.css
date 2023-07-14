@@ -1,0 +1,112 @@
+/*============================================================================================
+	Contact Us Area
+==============================================================================================*/
+.contact-area {
+  background: var(--primary-color);
+  padding: 120px 0px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.contact-shape-bg {
+  position: absolute;
+  z-index: -1;
+  width: 95%;
+  height: 100%;
+  top: 24px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.contact-shape-bg img {
+  width: 100%;
+  height: 100%;
+}
+.contact-inner {
+  background: var(--white-color);
+  box-shadow: 5px 6px 59px 0px rgba(17, 29, 59, 0.09);
+  border-radius: 10px;
+  padding: 42px;
+}
+.contact-info-sm-title {
+  font-size: 20px;
+  line-height: 120%;
+  display: block;
+  margin-bottom: 16px;
+  color: #04091e;
+}
+.contact-info-big-title {
+  font-size: 48px;
+  margin-bottom: 26px;
+}
+.contact-info-text {
+  margin: 0;
+  line-height: 148%;
+}
+.contact-info-widget {
+  background: var(--title-color);
+  box-shadow: 0px 0px 30px 0px rgba(243, 113, 33, 0.25);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 32px;
+  margin-top: 32px;
+}
+.contact-info-widget-icon i {
+  width: 74px;
+  height: 74px;
+  background: var(--white-color);
+  display: inline-block;
+  line-height: 74px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: var(--primary-color);
+}
+.contact-info-widget-content h5 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--white-color);
+  line-height: 150%;
+  margin-bottom: 14px;
+}
+.contact-info-widget-content a {
+  font-size: 16px;
+  color: var(--white-color);
+  line-height: 160%;
+}
+.contact-form {
+  padding-left: 48px;
+}
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  height: 62px;
+  border: 1px solid #cde7e3;
+  border-radius: 8px;
+  background: #e7f0ee;
+  padding: 18px 24px;
+  color: var(--title-color);
+  font-size: 16px;
+}
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+  border: 1px solid var(--primary-color);
+}
+.contact-form .form-group textarea {
+  height: 132px;
+}
+.contact-form-btn .theme-btn {
+  width: 100%;
+  display: block;
+  height: 57px;
+  line-height: 26px;
+  font-size: 18px;
+}
+/*============================================================================================
+	End Contact Us Area
+==============================================================================================*/

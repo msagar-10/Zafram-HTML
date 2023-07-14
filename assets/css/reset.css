@@ -849,10 +849,11 @@ p {
   color: var(--title-color);
   border-radius: 8px;
   margin-right: 26px;
-  line-height: 20px;
+  line-height: 19px;
   align-items: center;
 }
-.theme-btn:hover {
+.theme-btn:hover,
+.theme-btn.secondary {
   background: var(--primary-color);
   color: var(--white-color);
 }
@@ -863,7 +864,10 @@ p {
   font-size: 24px;
   margin-left: 4px;
 }
-
+.theme-btn.secondary:hover {
+  background: var(--secondary-color);
+  color: var(--title-color);
+}
 /*============================================================================================
 	End Theme Reset
 ==============================================================================================*/
