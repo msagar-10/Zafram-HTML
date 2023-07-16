@@ -1,0 +1,66 @@
+/*============================================================================================
+	Portfolio Area
+==============================================================================================*/
+.portfolio-area {
+  padding: 120px 0px;
+  background: var(--white-color);
+}
+.project-nav {
+  margin-bottom: 34px;
+}
+.project-nav li {
+  background: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #4d5461 !important;
+  text-transform: capitalize !important;
+  margin: 0 !important;
+  padding: 4px 20px !important;
+  border-radius: 2px;
+}
+.project-nav li.active,
+.project-nav li:hover {
+  background: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+.single-portfolio {
+  position: relative;
+}
+.single-portfolio:hover .portfolio-image img {
+  transform: scale(1.04);
+}
+.portfolio-image {
+  overflow: hidden;
+  border-radius: 12px;
+}
+.portfolio-image .portfolio-image img {
+  width: 100%;
+  height: 450px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.portfolio-content {
+  background: var(--white-color);
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+  bottom: 36px;
+  right: 0;
+  padding: 14px 30px 14px 20px;
+}
+.portfolio-content span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 160%;
+  margin-bottom: 6px;
+  color: #747681;
+  display: inline-block;
+}
+.portfolio-content h4 {
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0;
+}
+/*============================================================================================
+	End Portfolio Area
+==============================================================================================*/

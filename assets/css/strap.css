@@ -1,0 +1,73 @@
+/*============================================================================================
+	Strap Area
+==============================================================================================*/
+.strap-area {
+  position: relative;
+  overflow: hidden;
+  padding: 238px 0px;
+  margin-top: -350px;
+}
+.strap-inner {
+  overflow: hidden;
+}
+.single-strap {
+  z-index: 22;
+  position: absolute;
+  height: 104px;
+  line-height: 104px;
+  width: 105%;
+  overflow: hidden;
+  left: -22px;
+}
+.single-strap.strap-1 {
+  background: #212121;
+  transform: rotate(7.048deg);
+}
+.single-strap.strap-1 .single-strap-content li::before {
+  background: #ff5574;
+}
+.single-strap.strap-1 .single-strap-content li a {
+  color: var(--white-color);
+}
+
+.single-strap.strap-2 {
+  background: #d1e9da;
+  transform: rotate(-6.589deg);
+}
+.single-strap-content {
+  display: flex;
+  justify-content: center;
+}
+.single-strap-content li {
+  display: inline-block;
+  position: relative;
+  padding-right: 70px;
+  margin-right: 70px;
+  height: 104px;
+}
+.single-strap-content li:last-child {
+  margin: 0;
+  padding: 0;
+}
+.single-strap-content li::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: #000711;
+  right: -8px;
+  top: 45px;
+}
+.single-strap-content li:last-child::before {
+  display: none;
+}
+.single-strap-content li a {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000711;
+}
+/*============================================================================================
+	End Strap Area
+==============================================================================================*/

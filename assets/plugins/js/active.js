@@ -68,21 +68,77 @@
     /*==============================================================================
 		  Hero Slider
 	  ================================================================================*/
-    $(".hero-slider").owlCarousel({
-      items: 1,
+    $(".blog-slider").owlCarousel({
+      items: 3,
       autoplay: true,
       loop: true,
       touchDrag: true,
-      mouseDrag: false,
+      mouseDrag: true,
       autoplayTimeout: 5000,
       autoplayHoverPause: false,
       animateOut: "fadeOut",
       animateIn: "fadeIn",
       smartSpeed: 500,
       merge: true,
-      nav: false,
-      dots: true,
-      margin: 20,
+      nav: true,
+      dots: false,
+      margin: 30,
+      navText: [
+        "<i class='fi-rr-arrow-small-left'></i>",
+        "<i class='fi-rr-arrow-small-right'></i>",
+      ],
+      responsive: {
+        300: {
+          items: 2,
+        },
+        480: {
+          items: 2,
+        },
+        1024: {
+          items: 3,
+        },
+        768: {
+          items: 3,
+        },
+        1200: {
+          items: 3,
+        },
+      },
+    });
+
+    /*==============================================================================
+		  Cube Portoflio JS
+	  ================================================================================*/
+    $("#portfolio-item").cubeportfolio({
+      filters: "#portfolio-nav",
+      loadMoreAction: "click",
+      defaultFilter: "*",
+      layoutMode: "grid",
+      animationType: "quicksand",
+      gridAdjustment: "responsive",
+      gapHorizontal: 30,
+      gapVertical: 30,
+      mediaQueries: [
+        {
+          width: 1100,
+          cols: 3,
+        },
+        {
+          width: 768,
+          cols: 2,
+        },
+        {
+          width: 480,
+          cols: 2,
+        },
+        {
+          width: 0,
+          cols: 1,
+        },
+      ],
+      caption: "overlayBottomPush",
+      displayType: "sequentially",
+      displayTypeSpeed: 80,
     });
 
     /*==============================================================================

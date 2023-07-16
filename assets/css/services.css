@@ -7,6 +7,12 @@
   position: relative;
   z-index: 2;
 }
+
+.service-area .section-head-sm-title {
+  color: var(--primary-color);
+  font-size: 22px;
+  margin-bottom: 26px;
+}
 .service-section-shape {
   width: 100%;
   height: 100%;

@@ -826,15 +826,15 @@ p {
   margin-bottom: 32px;
 }
 .section-head-sm-title {
-  color: var(--primary-color);
-  font-size: 22px;
+  color: #747681;
+  font-size: 20px;
   line-height: 120%;
-  margin-bottom: 26px;
+  margin-bottom: 16px;
   display: inline-block;
 }
 .section-head-title {
-  font-size: 42px;
-  line-height: 60px;
+  font-size: 48px;
+  line-height: 140%;
   margin: 0;
 }
 .section-bottom-btn {
