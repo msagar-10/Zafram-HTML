@@ -242,6 +242,30 @@
   });
 
   /*==============================================================================
+		Progress JS
+	================================================================================*/
+
+  // Get all progress containers
+  const progressContainers = document.querySelectorAll(".progress-container");
+
+  // Loop through each progress container
+  progressContainers.forEach((container) => {
+    // Call setPercentage function for each container
+    setPercentage(container);
+  });
+
+  function setPercentage(container) {
+    const percentage = container.getAttribute("data-percentage") + "%";
+
+    const progressEl = container.querySelector(".progress");
+    const percentageEl = container.querySelector(".percentage");
+
+    progressEl.style.width = percentage;
+    percentageEl.innerText = percentage;
+    percentageEl.style.left = percentage;
+  }
+
+  /*==============================================================================
 		Preloader JS
 	================================================================================*/
   $(window).on("load", function (event) {

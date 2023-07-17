@@ -475,6 +475,137 @@
     </section>
     <!-- End Agency Skills Area -->
 
+    <section class="service-area service-style-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-12">
+            <div class="service-section-head style-2">
+              <span class="service-section-head-sm-title"
+                >We Offer Services</span
+              >
+              <h2 class="service-section-head-big-title">
+                We Provide Full Range Services
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="service-inner">
+              <!-- Single Service Card -->
+              <a
+                href="#"
+                class="service-single-widget"
+                data-image="./assets/images/services/services-2/service-img-1.png"
+              >
+                <div class="service-single-widget-info">
+                  <div class="service-single-widget-info-icon">
+                    <img
+                      src="./assets/images/services/services-2/icon-1.svg"
+                      alt="#"
+                    />
+                  </div>
+                  <div class="service-single-widget-info-content">
+                    <p>Uiux Design</p>
+                    <h4>Maintenance Update Services</h4>
+                  </div>
+                </div>
+                <div class="service-single-widget-btn">
+                  <span href="#"
+                    ><img
+                      src="./assets/images/services/services-2/arrow-icon.svg"
+                  /></span>
+                </div>
+                <div class="service-image-preview"></div>
+                <div class="service-image-preview-overlay"></div>
+              </a>
+              <!-- Single Service Card -->
+              <a
+                href="#"
+                class="service-single-widget"
+                data-image="./assets/images/services/services-2/service-img-1.png"
+              >
+                <div class="service-single-widget-info">
+                  <div class="service-single-widget-info-icon">
+                    <img
+                      src="./assets/images/services/services-2/icon-2.svg"
+                      alt="#"
+                    />
+                  </div>
+                  <div class="service-single-widget-info-content">
+                    <p>Digital Strategy</p>
+                    <h4>Content Marketing and SEO Friendly</h4>
+                  </div>
+                </div>
+                <div class="service-single-widget-btn">
+                  <span href="#"
+                    ><img
+                      src="./assets/images/services/services-2/arrow-icon.svg"
+                  /></span>
+                </div>
+                <div class="service-image-preview"></div>
+                <div class="service-image-preview-overlay"></div>
+              </a>
+              <!-- Single Service Card -->
+              <a
+                href="#"
+                class="service-single-widget"
+                data-image="./assets/images/services/services-2/service-img-1.png"
+              >
+                <div class="service-single-widget-info">
+                  <div class="service-single-widget-info-icon">
+                    <img
+                      src="./assets/images/services/services-2/icon-3.svg"
+                      alt="#"
+                    />
+                  </div>
+                  <div class="service-single-widget-info-content">
+                    <p>Startup Development</p>
+                    <h4>Designer pointing at creative ideas</h4>
+                  </div>
+                </div>
+                <div class="service-single-widget-btn">
+                  <span href="#"
+                    ><img
+                      src="./assets/images/services/services-2/arrow-icon.svg"
+                  /></span>
+                </div>
+                <div class="service-image-preview"></div>
+                <div class="service-image-preview-overlay"></div>
+              </a>
+              <!-- Single Service Card -->
+              <a
+                href="#"
+                class="service-single-widget"
+                data-image="./assets/images/services/services-2/service-img-1.png"
+              >
+                <div class="service-single-widget-info">
+                  <div class="service-single-widget-info-icon">
+                    <img
+                      src="./assets/images/services/services-2/icon-4.svg"
+                      alt="#"
+                    />
+                  </div>
+                  <div class="service-single-widget-info-content">
+                    <p>Content Writing</p>
+                    <h4>Woman writing in agency business</h4>
+                  </div>
+                </div>
+                <div class="service-single-widget-btn">
+                  <span href="#"
+                    ><img
+                      src="./assets/images/services/services-2/arrow-icon.svg"
+                  /></span>
+                </div>
+                <div class="service-image-preview"></div>
+                <div class="service-image-preview-overlay"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Service Area -->
     <section class="service-area">
       <div class="service-section-shape">
@@ -1423,26 +1554,24 @@
     <script src="assets/plugins/js/active.js"></script>
 
     <script>
-      // Get all progress containers
-      const progressContainers = document.querySelectorAll(
-        ".progress-container"
-      );
+      const serviceCards = document.querySelectorAll(".service-single-widget");
 
-      // Loop through each progress container
-      progressContainers.forEach((container) => {
-        // Call setPercentage function for each container
-        setPercentage(container);
+      serviceCards.forEach((card) => {
+        const imagePreview = card.querySelector(".service-image-preview");
+        const image = card.getAttribute("data-image");
+        card.addEventListener("mouseover", () =>
+          showImagePreview(imagePreview, image)
+        );
+        card.addEventListener("mouseout", () => hideImagePreview(imagePreview));
       });
 
-      function setPercentage(container) {
-        const percentage = container.getAttribute("data-percentage") + "%";
+      function showImagePreview(imagePreview, image) {
+        imagePreview.style.backgroundImage = `url(${image})`;
+        imagePreview.style.display = "block";
+      }
 
-        const progressEl = container.querySelector(".progress");
-        const percentageEl = container.querySelector(".percentage");
-
-        progressEl.style.width = percentage;
-        percentageEl.innerText = percentage;
-        percentageEl.style.left = percentage;
+      function hideImagePreview(imagePreview) {
+        imagePreview.style.display = "none";
       }
     </script>
   </body>

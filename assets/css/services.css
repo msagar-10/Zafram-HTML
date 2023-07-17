@@ -78,6 +78,136 @@
   position: relative;
   top: 3px;
 }
+
+/* Service Style 2 */
+.service-area.service-style-2 {
+  background: var(--white-color);
+  padding: 112px 0px 120px;
+}
+.service-section-head.style-2 {
+  margin-bottom: 60px;
+}
+.service-section-head.style-2 .service-section-head-sm-title {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 16px;
+  line-height: 120%;
+}
+.service-section-head.style-2 .service-section-head-big-title {
+  font-size: 44px;
+  line-height: 140%;
+  margin: 0;
+}
+.service-area.service-style-2 .service-single-widget {
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #dcf3e8;
+  padding-bottom: 28px;
+  margin-bottom: 30px;
+}
+.service-area.service-style-2 .service-single-widget:last-child {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.service-area.service-style-2 .service-single-widget-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.service-area.service-style-2 .service-single-widget-info-icon {
+  width: 61px;
+  height: 61px;
+  background: var(--secondary-color);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 61px;
+}
+.service-area.service-style-2 .service-single-widget-info-content p {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  line-height: 160%;
+}
+.service-area.service-style-2
+  .service-single-widget:hover
+  .service-single-widget-info-content
+  h4 {
+  color: var(--primary-color);
+}
+.service-area.service-style-2 .service-single-widget-info-content h4 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.service-area.service-style-2
+  .service-single-widget:hover
+  .service-single-widget-btn {
+  opacity: 1;
+}
+.service-area.service-style-2 .service-single-widget-btn {
+  position: relative;
+  z-index: 2;
+  opacity: 0.4000000059604645;
+  transition: all 0.4s ease;
+}
+.service-area.service-style-2 .service-single-widget-btn::before {
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: var(--primary-color);
+  z-index: -1;
+  right: 16px;
+  top: 6px;
+}
+
+.service-area.service-style-2 .service-image-preview {
+  position: absolute;
+  top: -90px;
+  right: 10%;
+  width: 276px;
+  height: 276px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  transition: all 0.4s ease;
+  border-radius: 12px;
+  z-index: 9999;
+}
+
+.service-area.service-style-2
+  .service-single-widget:hover
+  .service-image-preview-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.service-image-preview-overlay {
+  position: absolute;
+  right: 11%;
+  top: -108px;
+  opacity: 0;
+  visibility: hidden;
+}
+.service-image-preview-overlay::before {
+  position: absolute;
+  content: "";
+  width: 276px;
+  height: 276px;
+  background: var(--primary-color);
+  border-radius: 12px;
+  transform: rotate(5.16deg);
+  z-index: 1;
+  top: 0;
+  right: 10%;
+}
 /*============================================================================================
 	End Service Area
 ==============================================================================================*/
