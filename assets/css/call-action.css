@@ -46,6 +46,42 @@
   margin-top: 43px;
 }
 
+/* Call Action Style 2 */
+.call-action-area.style-2 {
+  padding: 96px 0px;
+}
+.call-action-area.style-2::before {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.8);
+}
+.call-action-area.style-2::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/call-action/call-action-2/bg-shape.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.call-action-content.style-2 {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 260px;
+}
+.call-action-content.style-2 .call-action-content-title {
+  font-weight: 700;
+}
+.call-action-content.style-2 .call-action-btn {
+  white-space: nowrap;
+}
+.call-action-content.style-2 .call-action-btn .theme-btn {
+  height: 57px;
+}
 /*============================================================================================
 	End Call Action Area
 ==============================================================================================*/

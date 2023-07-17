@@ -178,7 +178,7 @@
 		  Testimonial Slider
 	  ================================================================================*/
     $(".testimonial-slider").owlCarousel({
-      items: 3,
+      items: 1,
       autoplay: false,
       loop: true,
       autoplayTimeout: 5000,
@@ -188,23 +188,6 @@
       nav: false,
       dots: true,
       margin: 24,
-      responsive: {
-        300: {
-          items: 1,
-        },
-        480: {
-          items: 1,
-        },
-        1024: {
-          items: 3,
-        },
-        768: {
-          items: 3,
-        },
-        1200: {
-          items: 3,
-        },
-      },
     });
 
     /*==============================================================================
@@ -244,7 +227,6 @@
   /*==============================================================================
 		Progress JS
 	================================================================================*/
-
   // Get all progress containers
   const progressContainers = document.querySelectorAll(".progress-container");
 
@@ -263,6 +245,29 @@
     progressEl.style.width = percentage;
     percentageEl.innerText = percentage;
     percentageEl.style.left = percentage;
+  }
+
+  /*==============================================================================
+		Image Preview JS
+	================================================================================*/
+  const serviceCards = document.querySelectorAll(".service-single-widget");
+
+  serviceCards.forEach((card) => {
+    const imagePreview = card.querySelector(".service-image-preview");
+    const image = card.getAttribute("data-image");
+    card.addEventListener("mouseover", () =>
+      showImagePreview(imagePreview, image)
+    );
+    card.addEventListener("mouseout", () => hideImagePreview(imagePreview));
+  });
+
+  function showImagePreview(imagePreview, image) {
+    imagePreview.style.backgroundImage = `url(${image})`;
+    imagePreview.style.display = "block";
+  }
+
+  function hideImagePreview(imagePreview) {
+    imagePreview.style.display = "none";
   }
 
   /*==============================================================================
