@@ -1,0 +1,71 @@
+/*============================================================================================
+	Topbar Area
+==============================================================================================*/
+.topbar-area {
+  background: var(--primary-color);
+  padding: 12px 0px;
+}
+.topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbar-contact-list li {
+  display: inline-block;
+  margin-right: 34px;
+}
+.topbar-contact-list li:last-child {
+  margin: 0;
+}
+.topbar-contact-list li a {
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 160%;
+}
+.topbar-contact-list li i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+.topbar-language {
+  display: inline-flex;
+  align-items: center;
+  gap: 08px;
+}
+
+/* Select Box */
+.nice-select {
+  margin: 0;
+  background: transparent !important;
+  border: none !important;
+  color: var(--white-color);
+  padding: 0;
+  height: auto;
+  line-height: 160%;
+  padding-right: 28px;
+}
+.nice-select .list {
+  background-color: var(--white-color);
+  border-radius: 4px;
+  box-shadow: 0px 4px 57px 0px rgba(103, 120, 136, 0.14);
+  margin-top: 6px;
+  left: -36px;
+  color: var(--title-color);
+  width: 110px;
+}
+.nice-select .option {
+  font-weight: 500;
+  line-height: 34px;
+  min-height: 34px;
+}
+.nice-select .option:hover {
+  background-color: var(--title-color);
+  color: var(--white-color);
+}
+.nice-select::after {
+  border-bottom: 2px solid var(--white-color);
+  border-right: 2px solid var(--white-color);
+  margin-top: -6px;
+}
+/*============================================================================================
+	End Topbar Area
+==============================================================================================*/

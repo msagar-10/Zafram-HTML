@@ -151,6 +151,134 @@
 .about-content {
   padding-left: 48px;
 }
+
+/* About Us Style 2 */
+.about-area.about-style-2 {
+  position: relative;
+  z-index: 2;
+}
+.about-style-2-shape.shape-1 {
+  position: absolute;
+  left: 5%;
+  bottom: 36%;
+  z-index: -1;
+}
+.about-style-2-shape.shape-2 {
+  position: absolute;
+  right: 10%;
+  top: 19%;
+  z-index: -1;
+}
+.about-content.style-2 {
+  padding: 0;
+}
+.about-content.style-2 .about-content-sm-title {
+  font-size: 20px;
+  display: inline-block;
+  line-height: 160%;
+  color: #747681;
+  margin-bottom: 16px;
+}
+.about-content.style-2 .about-content-big-title {
+  font-size: 44px;
+  line-height: 140%;
+  margin-bottom: 26px;
+}
+.about-content.style-2 .about-content-list {
+  margin-top: 29px;
+}
+.about-content.style-2 .about-content-list li {
+  width: 48%;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+.about-content.style-2 .about-content-btn {
+  margin-top: 24px;
+}
+.about-right.style-2 .about-right-top-widget {
+  display: flex;
+  gap: 24px;
+}
+.about-right.style-2 .about-img img {
+  width: 352px;
+  height: 255px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.about-right.style-2 .about-right-top-info {
+  background: #e7effe;
+  padding: 30px 40px 19px 37px;
+  max-width: 214px;
+  border-radius: 12px;
+  height: 255px;
+  overflow: hidden;
+}
+.about-right.style-2 .about-right-top-info-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--primary-color);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 14px;
+}
+.about-right.style-2 .about-right-top-info-content h4 {
+  color: var(--primary-color);
+  font-size: 48px;
+  line-height: 140%;
+  margin-bottom: 0;
+}
+.about-right.style-2 .about-right-top-info-content p {
+  margin: 0;
+  font-size: 24px;
+  color: var(--title-color);
+  line-height: 150%;
+}
+.about-right.style-2 .about-right-bottom-content {
+  position: relative;
+  border-radius: 12px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 68px;
+  padding: 45px 42px;
+  margin-top: 24px;
+}
+.about-right.style-2 .about-right-bottom-content::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color);
+  border-radius: 12px;
+  opacity: 0.8600000143051147;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.about-right.style-2 .about-right-bottom-text {
+  margin: 0;
+  background: #d5e5e2;
+  padding: 19px 22px;
+  border-radius: 12px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  line-height: 160%;
+  color: var(--title-color);
+}
+.about-right.style-2 .about-right-bottom-widget h4 {
+  font-size: 48px;
+  color: var(--white-color);
+  line-height: 140%;
+  margin: 0;
+}
+.about-right.style-2 .about-right-bottom-widget p {
+  margin: 0;
+  font-size: 24px;
+  color: var(--white-color);
+  line-height: 150%;
+}
 /*============================================================================================
 	End About US Area
 ==============================================================================================*/
