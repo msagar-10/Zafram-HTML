@@ -849,7 +849,7 @@ p {
   color: var(--title-color);
   border-radius: 8px;
   margin-right: 26px;
-  line-height: 19px;
+  line-height: 20px;
   align-items: center;
 }
 .theme-btn:hover,

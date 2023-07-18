@@ -59,6 +59,12 @@
   border: 1px solid transparent;
   color: var(--white-color);
 }
+
+/* Header Style 2 */
+.header-area.header-style-3 {
+  border-bottom: 1px solid #04091e21;
+}
+
 /*============================================================================================
 	End Header Area
 ==============================================================================================*/
