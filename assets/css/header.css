@@ -5,10 +5,27 @@
   padding: 20px 0px;
   border-bottom: 1px solid #ffffff30;
 }
+.header-area.is-sticky {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  transition: all 0.2s ease;
+  z-index: 666;
+  animation: fadeInDown 1s both 0.2s;
+  background: var(--white-color);
+  box-shadow: 0px 8px 24px #04091e1a;
+}
 .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header-logo.logo-2,
+.header-area.is-sticky .header-logo.logo-1 {
+  display: none;
+}
+.header-area.is-sticky .header-logo.logo-2 {
+  display: block;
 }
 .header-logo img {
   width: 164px;
@@ -33,6 +50,20 @@
 .header-menu-btn .theme-btn:hover {
   background: var(--white-color);
   color: var(--primary-color);
+}
+
+.header-area.is-sticky .header-menu-list li a {
+  color: var(--title-color);
+}
+.header-area.is-sticky .header-menu-list li a:hover {
+  color: var(--primary-color);
+}
+.header-area.is-sticky .header-menu-list li.active a {
+  color: var(--primary-color);
+}
+.header-area.is-sticky .header-menu-btn .theme-btn:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
 }
 
 /* Header Style 2 */

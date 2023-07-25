@@ -296,6 +296,183 @@
   }
 }
 
+/* Service Details */
+.service-details-area {
+  padding: 80px 0px 120px;
+}
+.service-details-right {
+  margin-top: 40px;
+  padding-right: 6px;
+}
+.service-details-top img {
+  width: 100%;
+  height: 410px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.service-details-top-info {
+  margin-top: 40px;
+}
+.service-details-top-info h4 {
+  font-size: 32px;
+  margin-bottom: 22px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.service-details-top-info p {
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0;
+}
+.service-details-widget-group {
+  margin-top: 12px;
+}
+.service-details-widget {
+  background: var(--white-color);
+  border-radius: 12px;
+  box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  margin-top: 24px;
+}
+.service-details-widget-icon {
+  background: #dcf3e8;
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 100%;
+}
+.service-details-widget-content h6 {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.service-details-widget-content p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0;
+}
+.service-details-benefits {
+  margin-top: 40px;
+}
+.service-details-benefits-content h4 {
+  font-size: 32px;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+.service-details-benefits-content p {
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.service-details-benefits-list li {
+  margin-bottom: 12px;
+  line-height: 148%;
+  color: var(--title-color);
+}
+.service-details-benefits-list li:last-child {
+  margin: 0;
+}
+.service-details-benefits-list li img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 16px;
+}
+.service-details-benefits-images {
+  display: flex;
+  gap: 18px;
+  justify-content: right;
+}
+.service-details-benefits-images img {
+  width: 217px;
+  height: 294px;
+  border-radius: 10px;
+}
+.service-details-bottom {
+  margin-top: 40px;
+}
+.service-details-bottom h4 {
+  font-size: 32px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.service-details-bottom p {
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0;
+}
+
+/* Service Details Sidebar */
+.service-details-sidebar {
+  position: sticky;
+  top: 14%;
+}
+.sidebar-widget {
+  margin-top: 40px;
+}
+.s-details-sidebar-category-list li {
+  margin-bottom: 20px;
+}
+.s-details-sidebar-category-list li:last-child {
+  margin: 0;
+}
+.s-details-sidebar-category-list a {
+  width: 100%;
+  background: var(--white-color);
+  border-radius: 5px;
+  box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.08);
+  padding: 18px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  color: var(--title-color);
+}
+.s-details-sidebar-category-list a:hover {
+  color: var(--primary-color);
+}
+.s-details-sidebar-category-list li i {
+  font-size: 22px;
+}
+.s-details-sidebar-download-boucher {
+  background: var(--white-color);
+  padding: 22px 20px 20px;
+  box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+.s-details-sidebar-download-boucher h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 160%;
+}
+.s-details-sidebar-download-boucher p {
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.single-download-boucher a {
+  display: flex;
+  background: #dcf3e8;
+  padding: 16px 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: var(--title-color);
+  font-weight: 600;
+  border-radius: 5px;
+}
+.single-download-boucher a:hover {
+  color: var(--primary-color);
+}
+.single-download-boucher a:last-child {
+  margin: 0;
+}
 /*============================================================================================
 	End Service Area
 ==============================================================================================*/
