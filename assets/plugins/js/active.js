@@ -120,7 +120,7 @@
       gapVertical: 30,
       mediaQueries: [
         {
-          width: 1100,
+          width: 1170,
           cols: 3,
         },
         {
@@ -141,6 +141,40 @@
       displayTypeSpeed: 80,
     });
 
+    /*==============================================================================
+		  Cube Portoflio JS
+	  ================================================================================*/
+    $("#portfolio-item-2").cubeportfolio({
+      filters: "#portfolio-nav",
+      loadMoreAction: "click",
+      defaultFilter: "*",
+      layoutMode: "grid",
+      animationType: "quicksand",
+      gridAdjustment: "responsive",
+      gapHorizontal: 30,
+      gapVertical: 30,
+      mediaQueries: [
+        {
+          width: 1170,
+          cols: 2,
+        },
+        {
+          width: 768,
+          cols: 2,
+        },
+        {
+          width: 480,
+          cols: 2,
+        },
+        {
+          width: 0,
+          cols: 1,
+        },
+      ],
+      caption: "overlayBottomPush",
+      displayType: "sequentially",
+      displayTypeSpeed: 80,
+    });
     /*==============================================================================
 		  Clients Slider
 	  ================================================================================*/
@@ -326,6 +360,44 @@
           items: 6,
         },
       },
+    });
+
+    /*==============================================================================
+		  Service Card Slider JS
+	  ================================================================================*/
+    $(".portfolio-details-slider").owlCarousel({
+      items: 1,
+      autoplay: true,
+      loop: true,
+      margin: 30,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: false,
+      autoWidth: true,
+      smartSpeed: 1000,
+      merge: true,
+      nav: true,
+      dots: false,
+      responsive: {
+        300: {
+          items: 1,
+        },
+        480: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        1024: {
+          items: 1,
+        },
+        1170: {
+          items: 1,
+        },
+      },
+      navText: [
+        "<i class='fi fi-rr-angle-small-left'></i> Previews",
+        "Next <i class='fi fi-rr-angle-small-right'></i>",
+      ],
     });
   });
 

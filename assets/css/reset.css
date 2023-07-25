@@ -841,6 +841,38 @@ p {
   text-align: center;
   margin-top: 50px;
 }
+
+/* Pagination */
+.pagination {
+  float: right;
+  margin-top: 40px;
+}
+.pagination-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.pagination-list li:last-child {
+  margin: 0;
+}
+.pagination-list li.active a,
+.pagination-list li:hover a {
+  background: #cee1dd;
+  border: 1px solid transparent;
+}
+.pagination-list li a {
+  width: 56px;
+  height: 56px;
+  border: 1px solid var(--primary-color);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 56px;
+  font-size: 16px;
+  color: var(--title-color);
+}
+.pagination-list li.next-btn a {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
 /* Theme Button */
 .theme-btn {
   display: inline-flex;

@@ -117,6 +117,14 @@
   background: var(--primary-color) !important;
 }
 
+/* Team Page */
+.team-area.team-page-section {
+  padding: 90px 0px 120px;
+}
+.team-area.team-page-section .single-team {
+  margin-top: 30px;
+}
+
 /*============================================================================================
     End Team Area
 ==============================================================================================*/
