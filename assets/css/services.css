@@ -42,8 +42,8 @@
 }
 
 .service-card-icon img {
-  width: 72px;
-  height: 72px;
+  width: 72px !important;
+  height: 72px !important;
   object-fit: contain;
   border-radius: 100%;
 }
@@ -64,7 +64,8 @@
   margin-top: 20px;
 }
 .service-card-btn a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   font-weight: 600;
   color: var(--primary-color) !important;
   line-height: 152%;
@@ -212,6 +213,89 @@
   top: 0;
   right: 10%;
 }
+
+/* Service Style 3 */
+.service-area.style-3 {
+  overflow: hidden;
+  background: transparent;
+  margin-top: -234px;
+  padding-bottom: 67px;
+}
+.service-card-slider.style-3 {
+  padding-bottom: 42px;
+}
+.service-area.style-3 .container-fluid {
+  padding-right: 0;
+  padding-left: 375px;
+}
+.service-card-slider.style-3 .service-card {
+  width: 370px;
+  margin-top: 0px;
+  transition: all 0.4s ease;
+}
+.service-card-slider.style-3 .service-card:hover {
+  background: var(--primary-color);
+  box-shadow: 0px 4px 57px 0px rgba(103, 120, 136, 0.14);
+}
+.service-card-slider.style-3 .service-card-icon img {
+  width: 90px !important;
+  height: 90px !important;
+}
+.service-card-slider.style-3 .service-card:hover .service-card-title,
+.service-card-slider.style-3 .service-card:hover .service-card-text {
+  color: #e7f0ee;
+}
+.service-card-slider.style-3 .service-card:hover .service-card-btn a {
+  color: var(--secondary-color) !important;
+}
+
+.service-card-slider.style-3 .owl-stage-outer {
+  overflow: visible;
+}
+.service-card-slider.style-3 .owl-item {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+.service-card-slider.style-3 .owl-item.active {
+  opacity: 1;
+}
+
+/* Slider Dot */
+.service-card-slider.style-3 .owl-dots {
+  line-height: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+}
+
+.service-card-slider.style-3 .owl-dots .owl-dot span {
+  width: 20px;
+  height: 12px;
+  margin: 0;
+  background: var(--primary-color);
+  display: block;
+  border-radius: 20px;
+  opacity: 0.4000000059604645;
+  margin-right: 8px;
+  transition: all 0.4s ease;
+}
+.service-card-slider.style-3 .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  opacity: 1;
+  width: 50px;
+}
+.service-card-slider.style-3 .owl-dots .owl-dot:hover span {
+  opacity: 1 !important;
+  background: var(--primary-color) !important;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+  .service-area.style-3 .container-fluid {
+    padding-left: 182px;
+  }
+}
+
 /*============================================================================================
 	End Service Area
 ==============================================================================================*/

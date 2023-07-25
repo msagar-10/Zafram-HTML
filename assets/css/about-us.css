@@ -147,6 +147,7 @@
 }
 .about-cont-btm-widget p {
   color: #4d5461;
+  margin: 0;
 }
 .about-content {
   padding-left: 48px;
@@ -279,6 +280,63 @@
   color: var(--white-color);
   line-height: 150%;
 }
+
+/* About Style 3 */
+.about-area.style-3 {
+  position: relative;
+  z-index: 2;
+}
+.about-section-shape.style-3 {
+  position: absolute;
+  right: 7%;
+  top: 0;
+  z-index: -1;
+}
+.about-image.style-3 img {
+  border-radius: 282px 282px 0px 0px;
+}
+.about-client-widget.style-3 {
+  background: var(--white-color);
+}
+.about-client-widget.style-3 span {
+  color: var(--title-color);
+}
+.about-cont-btm-widget.style-3 .about-cont-widget-icon img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+.about-cont-btm-widget.style-3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.about-content.style-3 {
+  padding: 0;
+  padding-right: 48px;
+}
+.about-circle-btn {
+  position: absolute;
+  left: 50%;
+  bottom: -56px;
+  transform: translate(-50%);
+}
+.about-content-bottom.style-3 {
+  border: none;
+  padding: 0;
+  margin-top: 32px;
+}
+.about-area.style-4 {
+  padding-top: 0;
+  padding-bottom: 58px;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+  .about-section-shape.style-3 {
+    right: 2%;
+  }
+}
+
 /*============================================================================================
 	End About US Area
 ==============================================================================================*/

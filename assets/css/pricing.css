@@ -8,7 +8,6 @@
   z-index: 2;
   overflow: hidden;
 }
-
 .pricing-section-shape {
   position: absolute;
   width: 92%;
@@ -102,7 +101,6 @@
   background: var(--secondary-color);
   color: var(--title-color);
 }
-
 .pricing-card.active .pricing-card-price p {
   color: #e7f0ee;
 }
@@ -119,6 +117,51 @@
 .pricing-card.active .pricing-card-btn .theme-btn:hover {
   background: var(--title-color);
   color: var(--white-color);
+}
+
+/* Pricing Style 2 */
+.pricing-area.style-2 {
+  background: #fff;
+}
+.pricing-card.style-2 {
+  display: block;
+  margin-top: 90px;
+  margin-bottom: 22px;
+}
+.pricing-card.style-2::before {
+  display: none;
+}
+.pricing-card.style-2 .pricing-card-info {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+.pricing-card.style-2 .pricing-card-list {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+.pricing-card.style-2 .pricing-card-icon img {
+  margin-top: -62px;
+}
+.pricing-card.style-2 .pricing-card-icon {
+  margin-bottom: 30px;
+}
+.pricing-card.style-2 .pricing-card-list-inner {
+  margin-top: 20px;
+}
+.pricing-card.style-2 .pricing-card-price {
+  margin-top: 30px;
+  border-top: 1px dashed #04091e4f;
+  padding-top: 30px;
+}
+.pricing-card.active.style-2 .pricing-card-list-inner li i {
+  color: var(--white-color);
+}
+.pricing-card.style-2 .pricing-card-btn {
+  margin-top: 0;
+  position: relative;
+  top: 22px;
 }
 /*============================================================================================
 	End Pricing Area

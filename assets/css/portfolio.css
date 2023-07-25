@@ -63,7 +63,6 @@
 }
 
 /* Portfolio Style 2 */
-
 .portflio-style-2 .portfolio-content {
   background: transparent;
   border-radius: 0;
@@ -77,6 +76,175 @@
 .portflio-style-2 .single-portfolio.margin-add {
   margin: 0;
   margin-top: -26px;
+}
+
+/* Portfolio Style 3 */
+
+.portfolio-area.style-3 {
+  overflow: hidden;
+  padding-top: 40px;
+}
+.portfolio-section-bg {
+  width: 100%;
+  height: 930px;
+  position: absolute;
+  top: 84px;
+  left: 0;
+}
+.portfolio-area.style-3 .section-head {
+  z-index: 2;
+  position: relative;
+}
+.portfolio-area.style-3 .section-head-sm-title {
+  color: var(--secondary-color);
+}
+.portfolio-area.style-3 .section-head-title {
+  color: var(--white-color);
+}
+.portfolio-card-slider.style-3 {
+  margin-top: 48px;
+  padding-bottom: 42px;
+}
+.portfolio-area.style-3 .container-fluid {
+  padding-right: 0;
+  padding-left: 375px;
+}
+.portfolio-area.style-3 .single-portfolio {
+  width: 370px;
+  position: relative;
+}
+.portfolio-area.style-3 .portfolio-image img {
+  width: 100%;
+  height: 497px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.portfolio-area.style-3 .portfolio-info {
+  position: absolute;
+  background: #0b6755e5;
+  padding: 30px;
+  border-radius: 12px;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  min-width: 92%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+.portfolio-area.style-3 .single-portfolio:hover .portfolio-info {
+  bottom: 50%;
+  opacity: 1;
+  visibility: visible;
+}
+.portfolio-area.style-3 .portfolio-info-content {
+  margin-top: 24px;
+}
+.portfolio-area.style-3 .portfolio-info-icon {
+  display: inline-block;
+}
+.portfolio-area.style-3 .portfolio-info-icon img {
+  width: 90px;
+  height: 90px;
+}
+.portfolio-area.style-3 .portfolio-info-content h4 {
+  color: var(--white-color);
+  font-size: 24px;
+  margin-bottom: 14px;
+  line-height: 150%;
+}
+.portfolio-area.style-3 .portfolio-info-content p {
+  color: var(--white-color);
+  margin: 0;
+}
+.portfolio-area.style-3 .portfolio-info-btn {
+  display: inline-flex;
+  align-items: center;
+  color: var(--white-color) !important;
+  margin-top: 28px;
+}
+.portfolio-area.style-3 .portfolio-info-btn {
+  display: inline-flex;
+  align-items: center;
+  color: var(--white-color) !important;
+  margin-top: 28px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 152%;
+}
+.portfolio-area.style-3 .portfolio-info-btn:hover {
+  color: var(--secondary-color) !important;
+}
+.portfolio-area.style-3 .portfolio-info-btn i {
+  margin-left: 6px;
+  position: relative;
+  top: 3px;
+}
+
+/* Slider Arrow */
+.portfolio-area.style-3 .owl-nav {
+  position: absolute;
+  top: -35%;
+  right: 24%;
+}
+.portfolio-area.style-3 .owl-nav i {
+  position: relative;
+  top: 3px;
+}
+.portfolio-area.style-3 .owl-prev {
+  margin-right: 24px !important;
+}
+
+.portfolio-area.style-3 .owl-theme .owl-nav [class*="owl-"] {
+  color: var(--title-color);
+  font-size: 18px;
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 37px;
+  background: #d9d9d9;
+  transition: all 0.4s ease;
+  margin: 0;
+  line-height: 130%;
+}
+.portfolio-area.style-3 .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: var(--secondary-color);
+}
+/* Slider Dot */
+.portfolio-area.style-3 .owl-dots {
+  line-height: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+}
+.portfolio-area.style-3 .owl-dots .owl-dot span {
+  width: 20px;
+  height: 12px;
+  margin: 0;
+  background: var(--primary-color);
+  display: block;
+  border-radius: 20px;
+  opacity: 0.4000000059604645;
+  margin-right: 8px;
+  transition: all 0.4s ease;
+}
+.portfolio-area.style-3 .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  opacity: 1;
+  width: 50px;
+}
+.portfolio-area.style-3 .owl-dots .owl-dot:hover span {
+  opacity: 1 !important;
+  background: var(--primary-color) !important;
+}
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+  .portfolio-area.style-3 .container-fluid {
+    padding-left: 182px;
+  }
+  .portfolio-area.style-3 .owl-nav {
+    right: 13%;
+  }
 }
 /*============================================================================================
 	End Portfolio Area

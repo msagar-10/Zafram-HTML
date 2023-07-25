@@ -203,7 +203,7 @@
       merge: true,
       nav: false,
       dots: true,
-      margin: 24,
+      margin: 30,
       responsive: {
         300: {
           items: 1,
@@ -219,6 +219,111 @@
         },
         1200: {
           items: 4,
+        },
+      },
+    });
+
+    /*==============================================================================
+		  Service Card Slider JS
+	  ================================================================================*/
+    $(".service-card-slider").owlCarousel({
+      items: 4,
+      autoplay: true,
+      loop: true,
+      margin: 30,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: false,
+      autoWidth: true,
+      smartSpeed: 1000,
+      merge: true,
+      nav: false,
+      dots: true,
+      responsive: {
+        300: {
+          items: 1,
+        },
+        480: {
+          items: 1,
+        },
+        768: {
+          items: 3,
+        },
+        1024: {
+          items: 2,
+        },
+        1170: {
+          items: 4,
+        },
+      },
+    });
+    /*==============================================================================
+		  Service Card Slider JS
+	  ================================================================================*/
+    $(".portfolio-card-slider").owlCarousel({
+      items: 4,
+      autoplay: true,
+      loop: true,
+      margin: 30,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: false,
+      autoWidth: true,
+      smartSpeed: 1000,
+      merge: true,
+      nav: true,
+      dots: true,
+      responsive: {
+        300: {
+          items: 1,
+        },
+        480: {
+          items: 1,
+        },
+        768: {
+          items: 3,
+        },
+        1024: {
+          items: 2,
+        },
+        1170: {
+          items: 4,
+        },
+      },
+      navText: [
+        "<i class='fi fi-rr-angle-small-left'></i> Previews",
+        "Next <i class='fi fi-rr-angle-small-right'></i>",
+      ],
+    });
+
+    /*==============================================================================
+      Brand Slider JS
+    ================================================================================*/
+    $(".brand-slider").owlCarousel({
+      items: 6,
+      autoplay: true,
+      loop: true,
+      margin: 90,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: false,
+      autoWidth: true,
+      smartSpeed: 1000,
+      merge: true,
+      nav: false,
+      dots: false,
+      responsive: {
+        300: {
+          items: 1,
+        },
+        480: {
+          items: 2,
+        },
+        768: {
+          items: 3,
+        },
+        1024: {
+          items: 4,
+        },
+        1170: {
+          items: 6,
         },
       },
     });

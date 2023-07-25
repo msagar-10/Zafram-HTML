@@ -1,0 +1,122 @@
+/*============================================================================================
+	  Team Area
+==============================================================================================*/
+.team-area {
+  padding: 120px 0px;
+  background: #f7f7f8;
+  overflow: hidden;
+}
+.team-slider {
+  margin-top: 28px;
+  padding-bottom: 42px;
+}
+.single-team {
+  background: #fefeff;
+  box-shadow: 0px 9px 126px 0px rgba(20, 0, 255, 0.06);
+  border-radius: 4px;
+  border: 1px solid #0b675526;
+}
+.team-img {
+  position: relative;
+}
+.team-img img {
+  width: 100% !important;
+  height: 394px;
+  object-fit: cover;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-info {
+  text-align: center;
+  padding: 14px;
+  display: block;
+}
+.team-info h4 {
+  line-height: 150%;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+.team-info p {
+  margin: 0;
+  color: #4d5461;
+  line-height: 148%;
+}
+.team-social {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+.single-team:hover .team-social {
+  left: 20px;
+  opacity: 1;
+  visibility: visible;
+}
+.team-social li {
+  margin-bottom: 10px;
+}
+.team-social li:last-child {
+  margin: 0;
+}
+.team-social li a {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  background: #fff2ee;
+  border: 1px solid transparent;
+  color: var(--primary-color);
+  text-align: center;
+  border-radius: 100%;
+  font-size: 14px;
+}
+.team-social li a:hover {
+  background: var(--primary-color);
+  border: 1px solid #fff2ee;
+  color: var(--white-color);
+}
+.team-slider .owl-stage-outer {
+  overflow: visible;
+}
+.team-slider .owl-item {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+.team-slider .owl-item.active {
+  opacity: 1;
+}
+
+/* Slider Dot */
+.team-slider .owl-dots {
+  line-height: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+}
+
+.team-slider .owl-dots .owl-dot span {
+  width: 20px;
+  height: 12px;
+  margin: 0;
+  background: var(--primary-color);
+  display: block;
+  border-radius: 20px;
+  opacity: 0.4000000059604645;
+  margin-right: 8px;
+  transition: all 0.4s ease;
+}
+.team-slider .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  opacity: 1;
+  width: 50px;
+}
+.team-slider .owl-dots .owl-dot:hover span {
+  opacity: 1 !important;
+  background: var(--primary-color) !important;
+}
+
+/*============================================================================================
+    End Team Area
+==============================================================================================*/
