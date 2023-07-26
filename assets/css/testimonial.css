@@ -111,6 +111,104 @@
   opacity: 1 !important;
   background: var(--secondary-color) !important;
 }
+
+/* Testimonial Style-2 */
+.testimonial-style-2 {
+  padding-bottom: 0;
+}
+
+.testimonial-fixed-image {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.testimonial-fixed-image::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 534px;
+  background: var(--white-color);
+  opacity: 0.27000001072883606;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 300px 300px 0px 0px;
+}
+.single-testimonial.style-2 {
+  padding: 0;
+  display: block;
+  padding-left: 40px;
+}
+.single-testimonial-content p {
+  text-transform: capitalize;
+  color: var(--white-color);
+  line-height: 49px;
+  font-size: 26px;
+  margin: 0;
+  font-style: italic;
+}
+.single-testimonial-info {
+  float: right;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-top: 42px;
+}
+.testimonial-info-img img {
+  width: 82px !important;
+  height: 82px !important;
+  border-radius: 100%;
+  border: 1px solid var(--white-color);
+  object-fit: cover;
+}
+.testimonial-info-data h6 {
+  color: var(--white-color);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 160%;
+  margin: 0;
+}
+.testimonial-info-data p {
+  color: var(--white-color);
+  font-size: 18px;
+  margin: 0;
+}
+.single-testimonial-content i {
+  font-size: 90px;
+  color: #4a8e81;
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  left: 3px;
+  top: -15px;
+}
+/* Slider Dot */
+.testimonial-slider-2 .owl-dots {
+  line-height: 4px;
+  position: absolute;
+  left: 40px;
+  bottom: 10%;
+}
+.testimonial-slider-2 .owl-dots .owl-dot span {
+  width: 20px;
+  height: 10px;
+  margin: 0;
+  background: #f4f4f4;
+  display: block;
+  border-radius: 500px;
+  margin-right: 6px;
+  transition: all 0.4s ease;
+}
+.testimonial-slider-2 .owl-dots .owl-dot.active span {
+  background: var(--secondary-color);
+  opacity: 1;
+  width: 50px;
+}
+.testimonial-slider-2 .owl-dots .owl-dot:hover span {
+  opacity: 1 !important;
+  background: var(--secondary-color) !important;
+}
 /*============================================================================================
 	End Testimonial Area
 ==============================================================================================*/
