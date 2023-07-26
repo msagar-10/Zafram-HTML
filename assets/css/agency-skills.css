@@ -90,6 +90,16 @@
 .single-agency-skills-progress.progress-3 .percentage::after {
   border-top: 10px solid #1352fc;
 }
+.single-agency-skills-progress.progress-4 .progress-container,
+.single-agency-skills-progress.progress-4 .progress {
+  background-color: #e1cbf6;
+}
+.single-agency-skills-progress.progress-4 .progress {
+  background-color: #9b51e0;
+}
+.single-agency-skills-progress.progress-4 .percentage::after {
+  border-top: 10px solid #9b51e0;
+}
 .progress {
   background-color: #ffaf01;
   width: 0;

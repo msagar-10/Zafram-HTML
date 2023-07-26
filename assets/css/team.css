@@ -125,6 +125,181 @@
   margin-top: 30px;
 }
 
+/* Team Details */
+.team-details-area {
+  padding-top: 120px;
+}
+.team-details-top-img {
+  position: relative;
+  margin-right: 70px;
+}
+
+.team-details-top-img img {
+  width: 100%;
+  height: 630px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.team-details-social {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.team-details-social li {
+  margin-bottom: 14px;
+}
+.team-details-social li:last-child {
+  margin: 0;
+}
+.team-details-social li a {
+  width: 44px;
+  height: 44px;
+  background: #fff2ee;
+  line-height: 44px;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid transparent;
+  color: var(--primary-color);
+  font-size: 18px;
+}
+.team-details-social li a:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+  border: 1px solid #f1f1e2;
+}
+.team-details-info {
+  position: absolute;
+  bottom: 52px;
+  background: var(--white-color);
+  min-width: 86%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  padding: 23px;
+}
+.team-details-info h5 {
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0;
+}
+.team-details-info p {
+  margin: 0;
+}
+.team-details-bottom {
+  padding: 80px 0px;
+}
+.team-details-bottom-widget h2 {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+.team-details-bottom-widget p {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.team-details-bottom-info {
+  margin-top: 80px;
+}
+.team-details-bottom-info-images {
+  margin-right: 80px;
+}
+.team-details-bottom-info-images img {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.team-details-bottom-info-content h2 {
+  font-size: 48px;
+  margin-bottom: 14px;
+  line-height: 100%;
+}
+.team-details-bottom-info-content p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 160%;
+}
+.team-details-bottom-info-content-list {
+  margin-top: 25px;
+}
+.team-details-bottom-info-content-list li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 14px;
+  font-size: 16px;
+  color: var(--title-color);
+}
+.team-details-bottom-info-content-list li::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  left: 0;
+  top: 11px;
+  background: var(--title-color);
+}
+.team-details-bottom-info-content-list li:last-child {
+  margin: 0;
+}
+.team-details-contact {
+  padding-bottom: 120px;
+}
+.team-details-contact-inner {
+  background: #f1f1e2;
+  padding: 46px 50px;
+  border-radius: 5px;
+}
+.team-details-contact-form {
+  margin-right: 40px;
+}
+.team-details-contact-image {
+  margin-left: 20px;
+}
+.team-details-contact-image img {
+  width: 100%;
+  height: 510px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.team-details-contact-head h4 {
+  font-size: 48px;
+  line-height: 100%;
+  margin: ;
+  margin-bottom: 8px;
+}
+.team-details-contact-head p {
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0;
+}
+.team-details-contact-form form {
+  margin-top: 24px;
+}
+.team-details-contact-form form .form-group {
+  margin-bottom: 24px;
+}
+.team-details-contact-form form .form-group input,
+.team-details-contact-form form .form-group textarea {
+  width: 100%;
+  height: 56px;
+  background: var(--white-color);
+  padding: 20px;
+  font-size: 16px;
+  color: var(--title-color);
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+.team-details-contact-form form .form-group input:focus,
+.team-details-contact-form form .form-group textarea:focus {
+  border: 1px solid var(--primary-color);
+}
+.team-details-contact-form form .form-group textarea {
+  height: 170px;
+}
+.team-details-contact-btn {
+  margin-top: 10px;
+}
+
 /*============================================================================================
     End Team Area
 ==============================================================================================*/
