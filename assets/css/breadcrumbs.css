@@ -66,6 +66,26 @@
 .breadcrumbs-menu li a:hover {
   color: var(--secondary-color);
 }
+.breadcrumbs-menu-meta {
+  margin-top: 24px;
+}
+.breadcrumbs-menu-meta li {
+  display: inline-block;
+  margin-right: 30px;
+  color: #e7f0ee;
+  font-size: 18px;
+}
+.breadcrumbs-menu-meta li i {
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
+}
+.breadcrumbs-menu-meta li:last-child {
+  margin: 0;
+}
+.breadcrumbs-menu-meta li i {
+  color: var(--secondary-color);
+}
 /*============================================================================================
 	End Breadcrumbs Area
 ==============================================================================================*/
