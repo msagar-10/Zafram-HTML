@@ -19,6 +19,18 @@
   color: #4d5461;
   line-height: 160%;
 }
+@media only screen and (max-width: 767px) {
+  .company-fact-area {
+    padding: 24px 0px 56px;
+  }
+  .company-fact-content h1 {
+    font-size: 30px;
+  }
+  .company-fact-card {
+    margin-top: 24px;
+  }
+}
+
 /*============================================================================================
 	End Company Fact Area
 ==============================================================================================*/

@@ -295,6 +295,34 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .hero-content h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  .hero-content h1 br {
+    display: none;
+  }
+  .video-popup-img img {
+    height: 280px;
+  }
+  .video-popup-img i {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+  }
+  .hero-video-image::before {
+    display: none;
+  }
+  .hero-video-image {
+    margin-top: 40px;
+  }
+  .section-bg-image {
+    height: 450px;
+  }
+}
+
 /*============================================================================================
 	End Hero Area
 ==============================================================================================*/

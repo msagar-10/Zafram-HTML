@@ -16,6 +16,28 @@
       }
     });
 
+    /*==============================================================================
+		 	Mobile Menu JS
+	  ===============================================================================*/
+    var $offcanvasNav = $("#offcanvas-menu a");
+    $offcanvasNav.on("click", function () {
+      var link = $(this);
+      var closestUl = link.closest("ul");
+      var activeLinks = closestUl.find(".active");
+      var closestLi = link.closest("li");
+      var linkStatus = closestLi.hasClass("active");
+      var count = 0;
+
+      closestUl.find("ul").slideUp(function () {
+        if (++count == closestUl.find("ul").length)
+          activeLinks.removeClass("active");
+      });
+      if (!linkStatus) {
+        closestLi.children("ul").slideDown();
+        closestLi.addClass("active");
+      }
+    });
+
     /*=============================================================================
 			 Video Popup JS
 	  ===============================================================================*/
