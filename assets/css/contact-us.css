@@ -170,6 +170,80 @@
   padding: 43px;
   border-radius: 10px;
 }
+
+/* Contact Us page */
+.contact-us-info-area {
+  padding-bottom: 124px;
+}
+.contact-us-info-card-inner {
+  margin-top: -76px;
+}
+.contact-page-form {
+  padding-left: 24px;
+}
+.contact-form-head {
+  margin-bottom: 30px;
+}
+.contact-form-head span {
+  font-size: 20px;
+  color: var(--primary-color);
+  line-height: 160%;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.contact-form-head h3 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 0;
+}
+.contact-us-page .contact-bg-section-shape-2 {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  z-index: -1;
+}
+.gmap_canvas iframe {
+  width: 100%;
+  height: 520px;
+}
+.contact-us-info-card {
+  border: 1px solid var(--primary-color);
+  padding: 34px;
+  border-radius: 12px;
+  text-align: center;
+  background: var(--white-color);
+}
+.contact-info-card-icon {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background: #ecf3f2;
+  border-radius: 100%;
+  line-height: 80px;
+  color: var(--primary-color);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.contact-us-info-content h4 {
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 6px;
+}
+.contact-us-info-content p {
+  font-size: 20px;
+  line-height: 160%;
+  margin: 0;
+}
+.contact-us-info-content p a:hover {
+  color: var(--primary-color);
+}
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+  .contact-us-page .contact-bg-section-shape-2 {
+    right: 0;
+  }
+}
+
 /*============================================================================================
 	End Contact Us Area
 ==============================================================================================*/
