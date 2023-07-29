@@ -73,7 +73,7 @@
 }
 .contact-info-widget-content a {
   font-size: 16px;
-  color: var(--white-color);
+  color: var(--white-color) !important;
   line-height: 160%;
   margin-right: 4px;
 }
@@ -241,6 +241,62 @@
 @media only screen and (min-width: 1201px) and (max-width: 1600px) {
   .contact-us-page .contact-bg-section-shape-2 {
     right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-area {
+    padding: 56px 0px;
+  }
+  .contact-shape-bg {
+    display: none;
+  }
+  .contact-inner {
+    padding: 32px 24px;
+  }
+  .contact-info-sm-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .contact-info-big-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .contact-info-widget {
+    text-align: center;
+    display: block;
+  }
+  .contact-info-widget-icon i {
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 24px;
+  }
+  .contact-info-widget-content h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .contact-info-widget-content a {
+    font-size: 14px;
+  }
+  .contact-form {
+    padding-left: 0;
+    margin-top: 32px;
+  }
+  .contact-form .form-group input,
+  .contact-form .form-group textarea {
+    height: 48px;
+  }
+  .contact-form .form-group textarea {
+    height: 120px;
+  }
+  .contact-form-btn .theme-btn {
+    height: 48px;
+    line-height: 27px;
+    font-size: 16px;
+  }
+  .contact-info-widget-content {
+    margin-top: 12px;
   }
 }
 

@@ -16,11 +16,13 @@
   left: 44px;
   position: absolute;
   top: 53px;
+  z-index: -1;
 }
 .call-action-shape.shape-2 {
   position: absolute;
   right: 58px;
   bottom: 50px;
+  z-index: -1;
 }
 .call-action-area::before {
   position: absolute;
@@ -115,6 +117,29 @@
   margin-top: 44px;
   margin-bottom: -100px;
 }
+@media only screen and (max-width: 767px) {
+  .call-action-area {
+    padding: 80px 0px;
+  }
+  .call-action-content-title {
+    font-size: 30px;
+  }
+  .call-action-shape.shape-1 {
+    display: none;
+  }
+  .call-action-shape.shape-2 {
+    display: none;
+  }
+  .call-action-content-btn {
+    margin-top: 30px;
+  }
+  .call-action-content-btn .theme-btn {
+    padding: 10px 10px;
+    margin-right: 6px;
+    font-size: 14px;
+  }
+}
+
 /*============================================================================================
 	End Call Action Area
 ==============================================================================================*/

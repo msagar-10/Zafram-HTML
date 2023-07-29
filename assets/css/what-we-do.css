@@ -129,6 +129,61 @@
   height: 594px;
   object-fit: contain;
 }
+
+@media only screen and (max-width: 767px) {
+  .what-we-do-area {
+    padding: 16px 0px 50px;
+  }
+  .support-highlight-card {
+    text-align: center;
+    display: block;
+  }
+  .support-highlight-icon {
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    min-width: 68px;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+  .support-highlight-icon img {
+    width: 34px;
+    height: 34px;
+  }
+  .s-highlight-card-content h5 {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  .what-we-do-content {
+    padding-right: 0;
+  }
+  .what-we-do-sm-title {
+    font-size: 16px;
+  }
+  .what-we-do-big-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .what-we-do-info-content h6 {
+    font-size: 18px;
+  }
+  .what-we-do-inner {
+    margin-top: 56px;
+  }
+  .what-we-do-img {
+    padding-left: 0;
+  }
+  .what-we-do-shape-bg {
+    display: none;
+  }
+  .what-we-do-img img {
+    height: 300px;
+  }
+  .what-we-do-img {
+    margin-top: 24px;
+  }
+}
+
 /*============================================================================================
 	End What We Do Area
 ==============================================================================================*/

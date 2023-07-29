@@ -152,6 +152,88 @@
 .footer-bottom-social li a:hover {
   color: var(--white-color);
 }
+
+@media only screen and (max-width: 767px) {
+  .footer-newsletter-form input {
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    padding: 12px 20px !important;
+  }
+  .footer-newsletter {
+    padding: 32px 24px;
+    text-align: center;
+    display: block;
+  }
+  .footer-newsletter-form .theme-btn {
+    position: inherit;
+    font-size: 15px;
+    margin-top: 16px !important;
+  }
+  .footer-newsletter-content h4 {
+    font-size: 24px;
+    line-height: 130%;
+  }
+  .footer-newsletter-content span {
+    margin-bottom: 10px;
+  }
+  .footer-newsletter-form {
+    margin-top: 20px;
+  }
+  .footer-top {
+    padding: 56px 0px;
+  }
+  .footer-logo img {
+    width: 164px;
+    height: 44px;
+  }
+  .footer-widget {
+    margin-top: 32px;
+  }
+  .footer-about-content h6 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .footer-about-content {
+    margin-top: 24px;
+  }
+  .footer-widget-title {
+    font-size: 18px;
+  }
+  .footer-links li a {
+    font-size: 14px;
+  }
+  .footer-links li i {
+    font-size: 16px;
+    margin-right: 7px;
+  }
+  .footer-cpntact-list li a {
+    font-size: 14px;
+  }
+  .footer-cpntact-list li i {
+    font-size: 18px;
+    top: 6px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .footer-bottom-social li a {
+    font-size: 16px;
+  }
+  .footer-bottom-social li {
+    margin-right: 28px;
+  }
+  .footer-bottom-social {
+    text-align: center;
+  }
+  .footer-cpntact-list li {
+    margin-bottom: 12px;
+  }
+  .footer-copyright-text {
+    font-size: 15px !important;
+  }
+}
+
 /*============================================================================================
 	End Footer Area
 ==============================================================================================*/

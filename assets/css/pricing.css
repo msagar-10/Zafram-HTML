@@ -163,6 +163,57 @@
   position: relative;
   top: 22px;
 }
+
+@media only screen and (max-width: 767px) {
+  .pricing-area {
+    padding: 56px 0px;
+  }
+  .pricing-card-info {
+    width: 100%;
+    padding: 0;
+  }
+  .pricing-card-list {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-top: 24px;
+    border-top: 1px dashed #04091e;
+    padding-top: 24px;
+  }
+  .pricing-card::before {
+    display: none;
+  }
+  .pricing-card-icon img {
+    width: 80px;
+    height: 80px;
+  }
+  .pricing-info-title {
+    font-size: 28px;
+  }
+  .pricing-card-price {
+    margin-top: 14px;
+  }
+  .pricing-card {
+    padding: 32px 24px;
+    display: block;
+  }
+  .pricing-card-list-inner li {
+    font-size: 16px;
+  }
+  .pricing-card-btn {
+    margin-top: 30px;
+  }
+  .pricing-card-price h5 {
+    font-size: 26px;
+    line-height: 160%;
+  }
+  .pricing-card-price p {
+  }
+  .pricing-card-icon {
+    margin-bottom: 20px;
+  }
+}
+
 /*============================================================================================
 	End Pricing Area
 ==============================================================================================*/

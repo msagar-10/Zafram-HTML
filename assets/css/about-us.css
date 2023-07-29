@@ -341,6 +341,70 @@
 .about-area.about-page.about-style-2 {
   padding: 120px 0px;
 }
+@media only screen and (max-width: 767px) {
+  .about-image img {
+    height: 360px;
+    border-radius: 0px 172px 0px 0px;
+  }
+  .about-client-widget span {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  .about-client-list li img {
+    width: 30px;
+    height: 30px;
+  }
+  .about-client-widget {
+    height: 100px;
+    top: 12px;
+  }
+  .about-experience-card h4 {
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: 30px;
+  }
+  .about-experience-card h4 span {
+    font-size: 16px;
+  }
+  .about-experience-card {
+    width: auto;
+    height: auto;
+  }
+  .about-experience-card p {
+    letter-spacing: 6.76px;
+    margin-top: 0;
+  }
+  .about-content-title {
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 12px;
+  }
+  .about-content {
+    padding-left: 0;
+    margin-top: 24px;
+  }
+  .about-content-list li {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .about-content-list li img {
+    width: 16px;
+    height: 16px;
+    margin-right: 9px;
+  }
+  .about-cont-btm-widget h5 {
+    font-size: 22px;
+  }
+  .about-content-bottom {
+    gap: 48px;
+  }
+  .about-content-btn {
+    margin-top: 30px;
+  }
+  .about-area {
+    padding: 56px 0px;
+  }
+}
 
 /*============================================================================================
 	End About US Area

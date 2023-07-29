@@ -473,6 +473,30 @@
 .single-download-boucher a:last-child {
   margin: 0;
 }
+
+@media only screen and (max-width: 767px) {
+  .service-area {
+    padding: 56px 0px;
+  }
+  .service-section-shape {
+    display: none;
+  }
+  .service-card-icon img {
+    width: 64px !important;
+    height: 64px !important;
+  }
+  .service-card-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .service-card-btn {
+    margin-top: 8px;
+  }
+  .service-card-btn a {
+    font-size: 15px;
+  }
+}
+
 /*============================================================================================
 	End Service Area
 ==============================================================================================*/

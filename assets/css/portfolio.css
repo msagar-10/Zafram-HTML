@@ -403,6 +403,25 @@
   height: 24px;
   margin-right: 16px;
 }
+
+@media only screen and (max-width: 767px) {
+  .portfolio-area {
+    padding: 56px 0px;
+  }
+  .project-nav li {
+    font-size: 15px;
+    margin-bottom: 8px !important;
+  }
+  .portfolio-content span {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .portfolio-content h4 {
+    font-size: 20px;
+    line-height: 140%;
+  }
+}
+
 /*============================================================================================
 	End Portfolio Area
 ==============================================================================================*/
