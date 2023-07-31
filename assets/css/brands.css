@@ -17,8 +17,14 @@
   line-height: 150%;
 }
 
-
-
+@media only screen and (max-width: 767px) {
+  .brand-area {
+    padding-top: 56px;
+  }
+  .brand-area .owl-item {
+    margin-right: 32px !important;
+  }
+}
 
 /*============================================================================================
 	End Brands Area

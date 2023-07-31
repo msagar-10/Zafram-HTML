@@ -23,7 +23,6 @@
   background: transparent;
   z-index: 888;
 }
-
 .mobile-menu-offcanvas-toggler .line {
   position: relative;
   display: block;
@@ -34,9 +33,12 @@
   margin-right: auto;
   transition: all 0.3s;
 }
-.header-area.is-sticky .mobile-menu-offcanvas-toggler .line {
+.header-area.is-sticky .mobile-menu-offcanvas-toggler .line,
+.header-style-2 .mobile-menu-offcanvas-toggler .line,
+.header-style-3 .mobile-menu-offcanvas-toggler .line {
   background: var(--primary-color);
 }
+
 .mobile-menu-offcanvas-toggler .line + .line {
   margin-top: 4px;
 }

@@ -167,6 +167,39 @@
     height: 8px;
     top: 35%;
   }
+  .strap-area.style-3 {
+    padding: 0;
+    margin: 0px;
+    height: 70px;
+    z-index: 22;
+  }
+  .single-strap.strap-1.style-3 {
+    transform: none;
+  }
+  .single-strap.strap-1.style-3 .single-strap-content li {
+    height: 70px;
+    line-height: 70px;
+  }
+  .highlight-area {
+    margin-top: 56px;
+  }
+
+  .highlight-content-list li {
+    font-size: 20px;
+    margin-right: 40px;
+    padding-right: 40px;
+    line-height: 26px;
+  }
+  .highlight-content-list li::before {
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: -4px;
+  }
+  .highlight-content-list {
+    padding: 20px 0px;
+  }
 }
 
 /*============================================================================================

@@ -80,6 +80,7 @@
 }
 .call-action-content.style-2 .call-action-btn {
   white-space: nowrap;
+  margin: 0;
 }
 .call-action-content.style-2 .call-action-btn .theme-btn {
   height: 57px;
@@ -137,6 +138,39 @@
     padding: 10px 10px;
     margin-right: 6px;
     font-size: 14px;
+  }
+  .call-action-content.style-2 {
+    text-align: center;
+    display: block;
+  }
+  .call-action-content.style-2 .call-action-btn .theme-btn {
+    height: auto;
+  }
+  .call-action-area.style-2 {
+    padding: 80px 0px;
+  }
+  .call-action-content.style-2 .call-action-btn {
+    margin-top: 24px;
+  }
+  .call-action-area.style-3 {
+    padding-top: 56px;
+    margin-bottom: 54px;
+  }
+  .call-action-content.style-3 .call-action-content-title {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .call-action-btn {
+    margin-top: 24px;
+    margin-bottom: -54px;
+  }
+  .call-action-btn img {
+    width: 100px;
+    height: 100px;
+  }
+  .call-action-area.style-3 {
+    padding-top: 56px;
+    margin-bottom: 112px !important;
   }
 }
 

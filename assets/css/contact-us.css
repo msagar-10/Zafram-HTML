@@ -298,6 +298,56 @@
   .contact-info-widget-content {
     margin-top: 12px;
   }
+  .contact-bg-section-shape-2 {
+    display: none;
+  }
+  .contact-info.style-2 .contact-info-widget {
+    margin-top: 32px;
+  }
+  .contact-form.style-2 {
+    padding: 24px;
+  }
+  .contact-area.contact-style-2 {
+    padding: 56px 0px;
+  }
+  .contact-info.style-2 {
+    padding-right: 0;
+  }
+  .contact-style-2-bg-image {
+    height: 670px;
+  }
+
+  .contact-page-form {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  .contact-form-head h3 {
+    font-size: 28px;
+  }
+  .contact-form-head span {
+    font-size: 16px;
+  }
+  .gmap_canvas iframe {
+    height: 320px;
+  }
+  .contact-info-card-icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .contact-us-info-content h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .contact-us-info-card {
+    padding: 24px;
+    margin-top: 24px;
+  }
+  .contact-us-info-area {
+    padding-bottom: 56px;
+  }
 }
 
 /*============================================================================================

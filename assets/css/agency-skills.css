@@ -128,6 +128,33 @@
   z-index: 2;
 }
 
+@media only screen and (max-width: 767px) {
+  .agency-skills-area {
+    padding: 56px 0px;
+  }
+  .agency-skills-img img {
+    height: 280px;
+  }
+  .agency-skills-sm-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .agency-skills-big-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .skills-progress-title,
+  .skills-progress-percent {
+    font-size: 14px;
+  }
+  .single-agency-skills-progress-label {
+    margin-bottom: 14px;
+  }
+  .agency-skills-content {
+    margin-top: 32px;
+  }
+}
+
 /*============================================================================================
 	End Agency Skills Area
 ==============================================================================================*/

@@ -300,6 +300,106 @@
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+  .team-area {
+    padding: 56px 0px;
+  }
+  .team-info h4 {
+    font-size: 20px;
+  }
+  .team-img img {
+    height: 280px;
+  }
+  .team-slider .owl-dots .owl-dot span {
+    margin-bottom: 8px;
+  }
+  .single-team {
+    margin-bottom: 24px;
+  }
+
+  .team-details-area {
+    padding-top: 56px;
+  }
+  .team-details-top-img {
+    margin-right: 0;
+  }
+  .team-details-top-img img {
+    height: 320px;
+  }
+
+  .team-details-social li a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+  }
+
+  .team-details-info h5 {
+    font-size: 18px;
+  }
+  .team-details-info {
+    bottom: 16px;
+    padding: 12px;
+  }
+
+  .team-details-bottom-widget h2 {
+    font-size: 22px;
+  }
+  .team-details-bottom-info-images {
+    margin-right: 0;
+  }
+  .team-details-bottom-info-images img {
+    height: 250px;
+  }
+
+  .team-details-bottom-info-content h2 {
+    font-size: 20px;
+  }
+
+  .team-details-bottom-info-content-list li {
+    font-size: 14px;
+  }
+  .team-details-contact-inner {
+    padding: 24px;
+  }
+  .team-details-contact-head h4 {
+    font-size: 24px;
+  }
+
+  .team-details-contact-form form .form-group input,
+  .team-details-contact-form form .form-group textarea {
+    height: 48px;
+    font-size: 15px;
+  }
+
+  .team-details-contact-form form .form-group textarea {
+    height: 120px;
+  }
+  .team-details-contact-form {
+    margin-right: 0;
+  }
+  .team-details-contact-image img {
+    height: 240px;
+  }
+  .team-details-contact-image {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+
+  .team-details-contact {
+    padding-bottom: 56px;
+  }
+  .team-details-bottom-info-content {
+    margin-top: 24px;
+  }
+  .team-area.team-page-section {
+    padding: 30px 0px 56px;
+  }
+  .team-area.team-page-section .single-team {
+    margin-top: 12px;
+  }
+}
+
 /*============================================================================================
     End Team Area
 ==============================================================================================*/

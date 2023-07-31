@@ -132,7 +132,7 @@
 
 @media only screen and (max-width: 767px) {
   .what-we-do-area {
-    padding: 16px 0px 50px;
+    padding: 16px 0px 50px !important;
   }
   .support-highlight-card {
     text-align: center;

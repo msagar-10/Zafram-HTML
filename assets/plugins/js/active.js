@@ -408,7 +408,7 @@
       margin: 30,
       autoplayTimeout: 4000,
       autoplayHoverPause: false,
-      autoWidth: true,
+      autoWidth: false,
       smartSpeed: 1000,
       merge: true,
       nav: true,

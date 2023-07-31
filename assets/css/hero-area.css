@@ -131,6 +131,7 @@
   height: 354px;
   border-radius: 10px;
   border: 1px solid var(--primary-color);
+  object-fit: cover;
 }
 .hero-funfact {
   background: var(--primary-color);
@@ -320,6 +321,105 @@
   }
   .section-bg-image {
     height: 450px;
+  }
+  .hero-area.hero-style-2 .hero-content-top-title h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .hero-area.hero-style-2 .hero-join-us-widget-list li img {
+    width: 32px;
+    height: 32px;
+  }
+  .hero-area.hero-style-2 .hero-join-us-widget-list li {
+    margin-left: -16px;
+  }
+  .hero-area.hero-style-2 .hero-join-us-widget-info h4 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .hero-area.hero-style-2 .hero-content-bottom-img img {
+    height: 270px;
+    object-fit: cover;
+  }
+  .hero-area.hero-style-2 .hero-content-bottom.style-2 {
+    margin-top: 54px;
+  }
+  .hero-funfact-single h6 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .hero-funfact-single {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  .hero-funfact {
+    padding: 24px;
+    margin-top: 32px;
+  }
+  .hero-area.hero-style-2 {
+    padding: 56px 0px;
+  }
+  .hero-area.hero-style-2 .hero-join-us-widget {
+    padding: 12px 24px;
+  }
+  .hero-content.style-3 .hero-overlay-cont-title {
+    font-size: 40px;
+    margin-bottom: -8px;
+  }
+  .hero-content.style-3 .hero-cont-title {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .hero-content.style-3 .hero-cont-title span::before {
+    width: 100%;
+    bottom: 4px;
+  }
+  .hero-section-shape-1.style-3 {
+    display: none;
+  }
+  .hero-section-shape-2.style-3 {
+    display: none;
+  }
+  .hero-content.style-3 .hero-content-btn {
+    margin-top: 24px;
+  }
+  .hero-video-image::before {
+    width: 100%;
+    right: 0;
+  }
+  .hero-video-image.style-3 .video-popup-img img {
+    min-width: 100%;
+    height: 320px;
+  }
+  .hero-video-image.style-3 {
+    transform: none;
+    min-width: 100%;
+    margin-top: 32px;
+  }
+  .hero-video-image.style-3 .video-popup-img i {
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    font-size: 24px;
+  }
+  .hero-video-image.style-3 .hero-text-btn {
+    bottom: 0px;
+    transform: none;
+    transform: translate(-50%);
+  }
+  .hero-area.hero-style-3 {
+    padding: 56px 0px;
+  }
+  .hero-content.style-3 .hero-cont-title br {
+    display: none;
+  }
+  .hero-content.style-3 .hero-cont-title span {
+    display: initial;
+  }
+  .hero-text-btn img {
+    width: 64px;
+    height: 64px;
   }
 }
 

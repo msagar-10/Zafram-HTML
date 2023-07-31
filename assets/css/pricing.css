@@ -212,6 +212,22 @@
   .pricing-card-icon {
     margin-bottom: 20px;
   }
+  .pricing-card.style-2 {
+    margin-top: 64px;
+    margin-bottom: 0;
+  }
+  .pricing-card.style-2 .pricing-card-price {
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+  .pricing-card.style-2 .pricing-card-btn {
+    position: initial;
+    top: 0;
+    margin-top: 24px;
+  }
+  .pricing-section-shape {
+    display: none;
+  }
 }
 
 /*============================================================================================

@@ -133,6 +133,55 @@
   line-height: 160%;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 767px) {
+  .faq-area {
+    padding: 56px 0px;
+  }
+  .faq-section-shape-1 {
+    display: none;
+  }
+  .faq-section-shape-2 {
+    display: none;
+  }
+  .single-faq-widget .accordion-button h3 {
+    font-size: 16px;
+  }
+  .single-faq-widget .accordion-button::after {
+    top: -2px;
+    font-size: 14px;
+  }
+  .single-faq-widget .accordion-button:not(.collapsed)::after {
+    font-size: 16px;
+  }
+  .single-faq-widget {
+    margin-bottom: 20px;
+  }
+  .faq-images img {
+    height: 320px;
+  }
+  .faq-images {
+    margin-top: 40px;
+  }
+  .faq-service-widget {
+    bottom: 14px;
+    max-width: 90%;
+    text-align: center;
+    display: block;
+  }
+  .faq-service-widget-icon {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+  .faq-service-widget-content a {
+    font-size: 14px;
+  }
+}
+
 /*============================================================================================
       End Faq Area
   ==============================================================================================*/
