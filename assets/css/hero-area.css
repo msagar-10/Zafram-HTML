@@ -15,6 +15,12 @@
 .hero-area {
   overflow: hidden;
 }
+.hero-content {
+  animation: fadeInUp 1s both 1.2s;
+}
+.hero-content.style-3 {
+  animation: none;
+}
 .hero-content h1 {
   text-align: center;
   color: var(--white-color);
