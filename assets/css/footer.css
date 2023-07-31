@@ -152,6 +152,24 @@
 .footer-bottom-social li a:hover {
   color: var(--white-color);
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-newsletter {
+    text-align: center;
+    display: block;
+  }
+  .footer-newsletter-form input {
+    width: 100%;
+  }
+  .footer-newsletter-form {
+    margin-top: 24px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .footer-bottom-social {
+    text-align: center;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .footer-newsletter-form input {

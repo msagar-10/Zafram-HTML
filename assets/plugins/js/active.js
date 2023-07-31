@@ -120,7 +120,7 @@
           items: 3,
         },
         768: {
-          items: 3,
+          items: 2,
         },
         1200: {
           items: 3,
@@ -282,10 +282,10 @@
           items: 1,
         },
         1024: {
-          items: 3,
+          items: 2,
         },
         768: {
-          items: 3,
+          items: 2,
         },
         1200: {
           items: 4,

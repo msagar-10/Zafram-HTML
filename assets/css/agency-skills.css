@@ -127,6 +127,11 @@
   border-top: 10px solid #ffaf01;
   z-index: 2;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .agency-skills-content {
+    margin-top: 40px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .agency-skills-area {

@@ -475,6 +475,48 @@
   margin: 0;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .service-section-shape .shape-1 {
+    left: 0;
+  }
+  .service-area.style-3 .container-fluid {
+    padding-left: 5%;
+  }
+  .service-details-benefits-images {
+    justify-content: left;
+    margin-top: 32px;
+  }
+  .service-details-benefits-images img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-head-title {
+    font-size: 36px;
+  }
+  .service-details-widget {
+    display: block;
+  }
+  .service-area .section-head-sm-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .service-section-shape .shape-1 {
+    top: 4%;
+    left: 0;
+  }
+  .service-area.style-3 .container-fluid {
+    padding-left: 5%;
+  }
+  .service-details-benefits-images {
+    justify-content: left;
+    margin-top: 32px;
+  }
+  .service-details-widget-content {
+    margin-top: 20px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .service-area {
     padding: 56px 0px;

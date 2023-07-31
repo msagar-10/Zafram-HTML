@@ -134,6 +134,22 @@
   font-weight: 700;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faq-images img {
+    width: 100%;
+  }
+  .faq-images {
+    float: initial;
+    margin-top: 40px;
+  }
+  .faq-section-shape-1 {
+    display: none;
+  }
+  .faq-section-shape-2 {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .faq-area {
     padding: 56px 0px;

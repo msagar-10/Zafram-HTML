@@ -118,6 +118,32 @@
   margin-top: 44px;
   margin-bottom: -100px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .call-action-content.style-2 {
+    text-align: center;
+    display: block;
+  }
+  .call-action-content.style-2 .call-action-btn {
+    margin-top: 32px;
+  }
+  .call-action-content.style-3 .call-action-content-title {
+    font-size: 56px;
+    line-height: 81px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .call-action-content.style-2 {
+    display: block;
+    text-align: center;
+  }
+  .call-action-content.style-2 .call-action-btn {
+    margin-top: 24px;
+  }
+  .call-action-content.style-3 .call-action-content-title {
+    font-size: 58px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .call-action-area {
     padding: 80px 0px;

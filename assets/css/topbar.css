@@ -67,6 +67,12 @@
   margin-top: -6px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .topbar-area {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .topbar-area {
     display: none;

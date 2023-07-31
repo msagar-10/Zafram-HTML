@@ -409,6 +409,34 @@
   object-fit: cover;
   border-radius: 12px;
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .portfolio-area.style-3 .container-fluid {
+    padding-left: 5%;
+  }
+  .portfolio-area.style-3 .owl-nav {
+    right: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area.style-3 .container-fluid {
+    padding-left: 5%;
+  }
+  .portfolio-area.style-3 .owl-nav {
+    right: 5%;
+  }
+  .portfolio-meta-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .p-details-slider-img img {
+    height: 480px;
+  }
+  #portfolio-item-2 .portfolio-image img,
+  .portfolio-area.style-3 .portfolio-image img {
+    height: 400px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .portfolio-area {
     padding: 56px 0px;
