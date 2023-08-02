@@ -17,6 +17,7 @@
   border-radius: 12px;
   z-index: 2;
   margin-top: 60px;
+  background-attachment: fixed;
 }
 .single-testimonial {
   display: flex;

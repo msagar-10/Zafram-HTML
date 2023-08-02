@@ -727,9 +727,10 @@
     <!-- Call Action Area -->
     <section
       class="call-action-area style-2 background-image"
-      style="
-        background-image: url('./assets/images/call-action/call-action-2/bg-image.jpg');
-      "
+      data-parallax="scroll"
+      data-depth="0.9"
+      data-position="top"
+      data-image-src="./assets/images/call-action/call-action-2/bg-image.jpg"
     >
       <div class="container">
         <div class="row">
@@ -834,6 +835,7 @@
       <div
         class="contact-style-2-bg-image background-image"
         style="background-image: url('assets/images/contact-bg-image-2.png')"
+        ;
       ></div>
       <div class="container">
         <div class="contact-inner style-2">
@@ -863,7 +865,7 @@
             </div>
             <div class="col-lg-6 col-12">
               <div class="contact-form style-2">
-                <form action="#" method="post">
+                <form action="./assets/mail/mail.php" method="post">
                   <div class="form-group">
                     <input
                       type="text"
@@ -1287,7 +1289,11 @@
                   <span>For Agency Company</span>
                   <h4>Subscribe to Our Newsletter</h4>
                 </div>
-                <form action="#" method="post" class="footer-newsletter-form">
+                <form
+                  action="./assets/mail/mail.php"
+                  method="post"
+                  class="footer-newsletter-form"
+                >
                   <input
                     type="email"
                     name="email"
@@ -1465,6 +1471,8 @@
     <script src="assets/plugins/js/modernizer.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="assets/plugins/js/bootstrap.min.js"></script>
+    <!-- Parallax JS -->
+    <script src="assets/plugins/js/parallax.js"></script>
     <!-- Owl Carousel Slider JS -->
     <script src="assets/plugins/js/owl.carousel.min.js"></script>
     <!-- Magnific Popup JS -->

@@ -5,8 +5,9 @@
   padding: 105px 0px 120px;
   position: relative;
   z-index: 1;
+  height: 462px;
+  overflow: hidden;
 }
-
 .call-action-shape1 {
   position: absolute;
   width: 100%;
@@ -50,6 +51,9 @@
 
 /* Call Action Style 2 */
 .call-action-area.style-2 {
+  height: 330px;
+}
+.call-action-area.style-2 {
   padding: 96px 0px;
 }
 .call-action-area.style-2::before {
@@ -85,12 +89,13 @@
 .call-action-content.style-2 .call-action-btn .theme-btn {
   height: 57px;
 }
-
 /* Call Action Style-3 */
 .call-action-area.style-3 {
   padding-top: 120px;
   padding-bottom: 0;
   margin-bottom: 100px;
+  overflow: initial;
+  height: auto;
 }
 .call-action-area.style-3::before {
   display: none;
@@ -118,6 +123,7 @@
   margin-top: 44px;
   margin-bottom: -100px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .call-action-content.style-2 {
     text-align: center;
@@ -197,6 +203,12 @@
   .call-action-area.style-3 {
     padding-top: 56px;
     margin-bottom: 112px !important;
+  }
+  .call-action-area {
+    height: auto;
+  }
+  .call-action-area.style-2 {
+    height: auto;
   }
 }
 

@@ -650,7 +650,10 @@
     <!-- Call Action Area -->
     <section
       class="call-action-area background-image"
-      style="background-image: url('./assets/images/call-action/bg-image.png')"
+      data-parallax="scroll"
+      data-depth="0.9"
+      data-position="top"
+      data-image-src="./assets/images/call-action/bg-image.png"
     >
       <div class="call-action-shape shape-1">
         <img src="./assets/images/call-action/shape-1.svg" alt="#" />
@@ -930,7 +933,7 @@
             </div>
             <div class="col-lg-6 col-12">
               <div class="contact-form">
-                <form action="#" method="post">
+                <form action="./assets/mail/mail.php" method="post">
                   <div class="form-group">
                     <input
                       type="text"
@@ -1238,7 +1241,11 @@
                   <span>For Agency Company</span>
                   <h4>Subscribe to Our Newsletter</h4>
                 </div>
-                <form action="#" method="post" class="footer-newsletter-form">
+                <form
+                  action="./assets/mail/mail.php"
+                  method="post"
+                  class="footer-newsletter-form"
+                >
                   <input
                     type="email"
                     name="email"
@@ -1416,6 +1423,8 @@
     <script src="assets/plugins/js/modernizer.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="assets/plugins/js/bootstrap.min.js"></script>
+    <!-- Parallax JS -->
+    <script src="assets/plugins/js/parallax.js"></script>
     <!-- Owl Carousel Slider JS -->
     <script src="assets/plugins/js/owl.carousel.min.js"></script>
     <!-- Magnific Popup JS -->

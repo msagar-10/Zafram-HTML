@@ -132,6 +132,7 @@
   left: 0;
   top: 0;
   z-index: -1;
+  background-attachment: fixed;
 }
 .contact-style-2-bg-image::before {
   position: absolute;
