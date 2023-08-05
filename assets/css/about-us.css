@@ -422,7 +422,7 @@
     margin-top: 30px;
   }
   .about-area {
-    padding: 56px 0px;
+    padding: 0px 0px 56px;
   }
   .about-content.style-2 .about-content-sm-title {
     font-size: 16px;
@@ -523,6 +523,9 @@
   }
   .about-area.about-page.about-style-2 .about-img {
     margin-top: 24px;
+  }
+  .about-area.about-style-2.home-2 {
+    padding-top: 32px;
   }
 }
 

@@ -70,7 +70,7 @@
   transition: all 0.4s ease;
   object-fit: cover;
 }
-.blog-card-tag {
+.blog-card-tag a {
   position: absolute;
   right: 16px;
   bottom: 16px;
@@ -79,6 +79,10 @@
   color: var(--primary-color);
   padding: 7px 13px;
   font-size: 14px;
+}
+.blog-card-tag:hover a {
+  background: var(--primary-color);
+  color: var(--white-color);
 }
 .blog-card-btn {
   margin-top: 18px;
@@ -102,7 +106,7 @@
 }
 .blog-slider .owl-item {
   opacity: 0;
-  transition: opacity 500ms;
+  transition: opacity 1500ms;
 }
 .blog-slider .owl-item.active {
   opacity: 1;
@@ -802,7 +806,7 @@
     display: block;
   }
   .standard-blog-area {
-    padding: 56px 0px;
+    padding: 16px 0px 56px;
   }
   .standard-blog-img img {
     height: 220px;

@@ -419,18 +419,9 @@
   /*==============================================================================
 		Progress JS
 	================================================================================*/
-  // Get all progress containers
-  const progressContainers = document.querySelectorAll(".progress-container");
-
-  // Loop through each progress container
-  progressContainers.forEach((container) => {
-    // Call setPercentage function for each container
-    setPercentage(container);
-  });
-
+  // Function to set the progress bar percentage
   function setPercentage(container) {
     const percentage = container.getAttribute("data-percentage") + "%";
-
     const progressEl = container.querySelector(".progress");
     const percentageEl = container.querySelector(".percentage");
 
@@ -438,6 +429,42 @@
     percentageEl.innerText = percentage;
     percentageEl.style.left = percentage;
   }
+
+  // Function to check if the element is in the viewport
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  // Function to handle intersection changes
+  function handleIntersection(entries) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // If the element is in the viewport, set the progress bar
+        setPercentage(entry.target);
+        // Unobserve the element to avoid unnecessary calls
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+
+  // Create an Intersection Observer
+  const observer = new IntersectionObserver(handleIntersection, {
+    root: null, // Use the viewport as the root
+    threshold: 0.3, // When 10% of the element is visible
+  });
+
+  // Get all progress containers and observe each one
+  const progressContainers = document.querySelectorAll(".progress-container");
+  progressContainers.forEach((container) => {
+    observer.observe(container);
+  });
 
   /*==============================================================================
 		Image Preview JS

@@ -69,6 +69,31 @@
   color: #000711;
 }
 
+.single-strap.strap-1 .single-strap-content {
+  animation: scrollLeft 25s linear infinite;
+  white-space: nowrap;
+}
+.single-strap.strap-2 .single-strap-content {
+  animation: scrollRight 25s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes scrollRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
 /* Strap Style 3 */
 .strap-area.style-3 {
   padding: 110px 0px 210px 0px;
@@ -97,9 +122,12 @@
 .highlight-area {
   background: var(--secondary-color);
   margin-top: 120px;
+  overflow: hidden;
 }
 .highlight-content-list {
   padding: 24px 0px;
+  animation: scrollLeft 25s linear infinite;
+  white-space: nowrap;
 }
 .highlight-content-list li {
   display: inline-block;
@@ -132,6 +160,7 @@
 @media only screen and (max-width: 767px) {
   .strap-area {
     padding: 0px;
+    padding-bottom: 56px;
     margin-top: 0;
   }
   .single-strap.strap-1 {

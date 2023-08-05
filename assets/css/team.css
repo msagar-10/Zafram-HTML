@@ -412,10 +412,16 @@
     margin-top: 24px;
   }
   .team-area.team-page-section {
-    padding: 30px 0px 56px;
+    padding: 44px 0px 56px;
   }
   .team-area.team-page-section .single-team {
     margin-top: 12px;
+  }
+  .team-details-bottom {
+    padding: 56px 0px;
+  }
+  .team-details-bottom-info {
+    margin-top: 24px;
   }
 }
 

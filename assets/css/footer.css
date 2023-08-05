@@ -182,6 +182,7 @@
     padding: 32px 24px;
     text-align: center;
     display: block;
+    margin-bottom: 24px;
   }
   .footer-newsletter-form .theme-btn {
     position: inherit;

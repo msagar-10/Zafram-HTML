@@ -120,6 +120,13 @@
   padding: 0;
   border: none;
 }
+.mobile-menu-modal .offcanvas-menu li.active .menu-arrow {
+  color: var(--primary-color);
+}
+.mobile-menu-modal .offcanvas-menu li.active .menu-arrow::before {
+  background: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
 .mobile-menu-modal .offcanvas-menu li a {
   font-weight: 500;
   display: block;

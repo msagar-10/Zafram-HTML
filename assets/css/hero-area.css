@@ -446,6 +446,9 @@
   }
 }
 @media only screen and (max-width: 767px) {
+  .hero-area {
+    margin-top: 56px;
+  }
   .hero-content h1 {
     font-size: 30px;
     margin: 0;
@@ -508,6 +511,7 @@
   }
   .hero-area.hero-style-2 {
     padding: 56px 0px;
+    margin: 0;
   }
   .hero-area.hero-style-2 .hero-join-us-widget {
     padding: 12px 24px;
@@ -559,6 +563,7 @@
   }
   .hero-area.hero-style-3 {
     padding: 56px 0px;
+    margin: 0;
   }
   .hero-content.style-3 .hero-cont-title br {
     display: none;

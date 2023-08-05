@@ -228,6 +228,9 @@
   .pricing-section-shape {
     display: none;
   }
+  .pricing-area.home-3.style-2 {
+    padding-bottom: 0;
+  }
 }
 
 /*============================================================================================

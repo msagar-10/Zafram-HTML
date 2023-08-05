@@ -116,7 +116,7 @@
 .contact-area.contact-style-2 {
   background: transparent;
   z-index: 2;
-  padding-bottom: 0px;
+  padding-bottom: 60px;
   position: relative;
 }
 .contact-bg-section-shape-2 {
@@ -370,7 +370,7 @@
     font-size: 16px;
   }
   .gmap_canvas iframe {
-    height: 320px;
+    height: 280px;
   }
   .contact-info-card-icon {
     width: 60px;
