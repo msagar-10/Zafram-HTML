@@ -24,14 +24,26 @@
 .service-section-shape .shape-1 {
   top: 7%;
   left: 17%;
+  animation-name: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .service-section-shape .shape-2 {
   right: 5%;
   top: 10%;
+  animation-name: rotateIn;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .service-section-shape .shape-3 {
   bottom: 22%;
   right: 6%;
+  animation-name: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .service-card {
   background: var(--white-color);

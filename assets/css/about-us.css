@@ -163,12 +163,20 @@
   left: 5%;
   bottom: 36%;
   z-index: -1;
+  animation-name: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .about-style-2-shape.shape-2 {
   position: absolute;
   right: 10%;
   top: 19%;
   z-index: -1;
+  animation-name: rotateIn;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .about-content.style-2 {
   padding: 0;
@@ -291,6 +299,10 @@
   right: 7%;
   top: 0;
   z-index: -1;
+  animation-name: rotateIn;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .about-image.style-3 img {
   border-radius: 282px 282px 0px 0px;

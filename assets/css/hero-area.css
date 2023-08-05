@@ -44,6 +44,10 @@
   right: -17%;
   top: -32%;
   z-index: 22;
+  animation-name: shake;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .video-popup-img {
   position: relative;

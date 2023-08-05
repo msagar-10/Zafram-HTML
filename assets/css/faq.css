@@ -12,12 +12,20 @@
   left: 8%;
   bottom: 15%;
   z-index: -1;
+  animation-name: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .faq-section-shape-2 {
   position: absolute;
   right: 7%;
   top: 15%;
   z-index: -1;
+  animation-name: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .single-faq-widget {
   margin-bottom: 40px;
