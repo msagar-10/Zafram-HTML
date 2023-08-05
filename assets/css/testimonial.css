@@ -116,8 +116,8 @@
 /* Testimonial Style-2 */
 .testimonial-style-2 {
   padding-bottom: 0;
+  background-attachment: fixed;
 }
-
 .testimonial-fixed-image {
   position: relative;
   z-index: 2;

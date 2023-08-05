@@ -8,14 +8,14 @@
   z-index: 2;
   overflow: hidden;
 }
-.contact-shape-bg {
+
+.contact-shape-bg .thumbnail-image {
   position: absolute;
-  z-index: -1;
-  width: 95%;
+  width: 1170px;
   height: 100%;
-  top: 24px;
-  left: 50%;
-  transform: translate(-50%);
+  left: 43%;
+  margin-left: -25%;
+  z-index: -1;
 }
 .contact-shape-bg img {
   width: 100%;
@@ -242,6 +242,10 @@
 @media only screen and (min-width: 1201px) and (max-width: 1600px) {
   .contact-us-page .contact-bg-section-shape-2 {
     right: 0;
+  }
+  .contact-shape-bg .thumbnail-image {
+    width: 1200px;
+    left: 34%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {

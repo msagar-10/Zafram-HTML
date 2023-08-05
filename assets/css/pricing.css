@@ -8,6 +8,15 @@
   z-index: 2;
   overflow: hidden;
 }
+
+.pricing-bg-shape .thumbnail-image {
+  position: absolute;
+  width: 1170px;
+  height: 100%;
+  left: 50%;
+  margin-left: -25%;
+}
+
 .pricing-section-shape {
   position: absolute;
   width: 92%;
@@ -122,6 +131,10 @@
 /* Pricing Style 2 */
 .pricing-area.style-2 {
   background: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .pricing-card.style-2 {
   display: block;
@@ -162,6 +175,13 @@
   margin-top: 0;
   position: relative;
   top: 22px;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+  .pricing-bg-shape .thumbnail-image {
+    width: 1000px;
+    left: 45%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
