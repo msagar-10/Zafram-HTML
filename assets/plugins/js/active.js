@@ -492,9 +492,13 @@
   /*==============================================================================
 		Parallax Images JS
 	================================================================================*/
-  var image = document.getElementsByClassName("thumbnail-image");
+  let image = document.getElementsByClassName("thumbnail-image");
   new simpleParallax(image, {
-    scale: 1.4,
+    scale: 1.2,
+    overflow: true,
+    orientation: "up",
+    delay: 0.6,
+    transition: "cubic-bezier(0,0,0,1)",
   });
 
   /*==============================================================================

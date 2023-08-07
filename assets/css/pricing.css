@@ -11,10 +11,11 @@
 
 .pricing-bg-shape .thumbnail-image {
   position: absolute;
-  width: 1170px;
+  width: 1920px;
   height: 100%;
-  left: 50%;
+  left: 31%;
   margin-left: -25%;
+  top: 0;
 }
 
 .pricing-section-shape {
@@ -179,8 +180,7 @@
 
 @media only screen and (min-width: 1201px) and (max-width: 1600px) {
   .pricing-bg-shape .thumbnail-image {
-    width: 1000px;
-    left: 45%;
+    left: 25%;
   }
 }
 

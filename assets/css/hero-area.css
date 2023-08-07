@@ -97,13 +97,13 @@
   overflow: hidden;
 }
 .hero-bg-shape.style-2 .thumbnail-image {
-  position: absolute;
-  width: 1170px;
-  height: 100%;
-  left: 50%;
-  top: 20%;
-  margin-left: -28%;
-  z-index: -1;
+	position: absolute;
+	width: 1920px;
+	height: 100%;
+	left: 35%;
+	top: 0;
+	margin-left: -28%;
+	z-index: -1;
 }
 
 .hero-area.hero-style-2 .hero-content-top-title h1 {
@@ -339,7 +339,7 @@
     left: 0;
   }
   .hero-bg-shape.style-2 .thumbnail-image {
-    margin-left: -40%;
+    margin-left: -35%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
