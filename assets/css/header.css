@@ -156,11 +156,11 @@
   padding: 16px 0px;
 }
 .header-menu-list.style-2 li a {
-  color: #747681;
+  color: var(--title-color);
 }
 .header-menu-list.style-2 li.active a,
 .header-menu-list.style-2 li a:hover {
-  color: var(--title-color);
+  color: var(--primary-color);
 }
 .header-menu-btn.style-2 .theme-btn {
   background: transparent;
